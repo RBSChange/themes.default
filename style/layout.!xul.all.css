@@ -1,0 +1,65 @@
+#bodycontent {
+	margin: 0 auto;
+	width: 950px;
+}
+
+#header {
+	height: 110px;
+}
+
+#topheader {
+	height: 80px;
+}
+
+#topheader .modules-website-taggedmenu {
+	float: left;
+}
+
+#topheader .modules-website-switchlanguage {
+	float: right;
+}
+
+#topheader .modules-order
+{
+	float: right;
+}
+
+#bottomheader {
+	clear: both;
+	height: 24px;
+}
+
+#bottomheader .modules-website-taggedmenu {
+	float: left;
+}
+
+#bottomheader .modules-solrsearch-form {
+	float: right;
+}
+
+#contentzone {
+	clear: both;
+}
+
+#contentcolumns {
+	clear: both;
+}
+
+#contentcontextcolumn {
+	float :left;
+	width: 200px;
+}
+#contentcolumn {	
+	width: 735px;
+	float :left;
+}
+
+#columnend{
+	clear: both;
+	height:0;
+	overflow: hidden;
+}
+
+#footer {
+	clear: both;
+}

@@ -1,0 +1,21 @@
+#bodycontent {
+	width: 1000px;
+}
+
+#header {
+	height: 110px;
+}
+
+#topheader {
+	padding-left: 20px;
+	padding-right: 20px;
+	height: 110px;
+}
+
+#contentcontextcolumn{
+	width: 250px;
+}
+
+#contentcolumn{
+	width: 750px;
+}

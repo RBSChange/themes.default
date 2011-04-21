@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<change:templates xmlns:change="http://www.rbs.fr/change/1.0/schema">
+	<change:template id="minimal">
+		<div id="bodycontent" orient="vertical">
+			<a name="top" />
+			<div id="header" orient="vertical">
+				<div id="topheader" orient="horizontal">
+					<change:templateblock type="modules_website_taggedmenu" __tag="contextual_website_website_menu-header" __template="header" __depth="0"/>
+					<change:templateblock type="modules_website_switchlanguage" __viewall="false" __showflag=""/>
+				</div>
+			</div>
+			<div id="contentzone" orient="vertical">
+				<a name="content" />
+				<change:content id="content-block"/>
+			</div>
+			<div id="footer" orient="horizontal">
+				<change:templateblock type="modules_website_taggedmenu" __tag="contextual_website_website_menu-footer" __template="footer" __depth="0" />
+			</div>
+		</div>
+	</change:template>
+</change:templates>

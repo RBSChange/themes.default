@@ -1,0 +1,53 @@
+body {
+	font-family: Arial,Helvetica,sans-serif;
+    color: #000000;
+    font-size: 75%;
+    line-height: 1.5em;
+}
+
+#bodycontent{
+	margin: 0 auto;
+	width: 950px;
+	background-color: #EEE;
+}
+
+#header{
+	background: url("/media/themes/default/bg-header.gif") repeat-x scroll left bottom transparent;
+}
+
+#topheader {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#bottomheader, #footer  {
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: #808080;
+}
+
+#contentzone {
+	background-color: #BBB;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+#contentcolumn {
+	background-color: #BBB;
+	padding-left: 5px;
+	padding-right: 10px;
+}
+
+a.link, a.link:hover, a.link:visited{
+	text-decoration: underline;
+	color: #205D97;
+}
+
+a.link:hover{
+	text-decoration: none;
+}
+
+a.broken, a.broken:hover{
+	color: red;
+}

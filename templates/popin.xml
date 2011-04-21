@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<change:templates xmlns:change="http://www.rbs.fr/change/1.0/schema">
+	<change:template id="popin">
+		 <change:content id="content-block"/>
+	</change:template>
+</change:templates>
