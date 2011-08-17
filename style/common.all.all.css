@@ -12,7 +12,7 @@ body {
 }
 
 #header{
-	background: url("/media/themes/default/bg-header.gif") repeat-x scroll left bottom transparent;
+	background: url(/media/themes/default/bg-header.gif) repeat-x scroll left bottom transparent;
 }
 
 #topheader {
