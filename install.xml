@@ -4,22 +4,13 @@
 	
 	<rootfolder module="theme">
 		<theme id="default" byCodename="default" label="RBS Change default theme" description="RBS Change default theme">
-			<pagetemplate byCodename="default/home" doctype="XHTML-1.0-Strict" 
-				useprojectcss="true" cssprint="themes.default.print" cssscreen="themes.default.home" />
-				
-			<pagetemplate byCodename="default/content" doctype="XHTML-1.0-Strict"
-				useprojectcss="true" cssprint="themes.default.print" cssscreen="themes.default.content" />
-
-			<pagetemplate byCodename="default/minimal" doctype="XHTML-1.0-Strict"
-				useprojectcss="true" cssprint="themes.default.print" cssscreen="themes.default.minimal" />
+			<pagetemplate byCodename="default/homepage" doctype="XHTML-1.0-Strict" 
+				useprojectcss="true" cssprint="themes.default.print" cssscreen="themes.default.common" />
+								
+			<pagetemplate byCodename="default/contentpage" doctype="XHTML-1.0-Strict"
+				useprojectcss="true" cssprint="themes.default.print" cssscreen="themes.default.common" />
 				
 			<pagetemplate byCodename="default/popin" doctype="XHTML-1.0-Strict" useprojectcss="false" cssscreen="themes.default.popin"/>
-								
-			<pagetemplate byCodename="default/ecom" doctype="XHTML-1.0-Strict"
-				useprojectcss="true" cssprint="themes.default.print" cssscreen="themes.default.ecom" />	
-				
-			<pagetemplate byCodename="default/orderprocess" doctype="XHTML-1.0-Strict"
-				useprojectcss="true" cssprint="themes.default.print" cssscreen="themes.default.orderprocess" />				
 		</theme>
 	</rootfolder>
 </script>

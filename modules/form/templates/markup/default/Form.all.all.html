@@ -1,0 +1,50 @@
+<tal:block tal:condition="not: moduleName" tal:define="global moduleName 'form'" />
+<a name="form_${form/getId}_anchor"></a>
+<tal:block tal:condition="php: count(receiverLabels) GT 0">
+	<p><strong change:translate="modules.form.document.form.ContactLabel"></strong> <tal:block tal:condition="php: count(receiverLabels) == 1">${receiverLabels/0}</tal:block></p>
+	<ul class="normal" tal:condition="php: count(receiverLabels) GT 1">
+ 		<li tal:repeat="receiverLabel receiverLabels">${receiverLabel}</li>
+	</ul>
+</tal:block>
+<script type="text/javascript" tal:condition="php: count(jQueryConditionalElement) gt 0">
+jQuery(document).ready(function() {
+	jQuery('span.nojs').hide();
+	<tal:block tal:repeat="jQuery jQueryConditionalElement" tal:content="jQuery" />
+});
+</script>
+<script type="text/javascript">
+if (form_Validation instanceof Array) {
+	form_Validation.push({id: "form_${form/getId}", rules: ${form/getValidationRulesJSON}});
+}
+</script>
+
+<form method="post" action="#form_${form/getId}_anchor" id="form_${form/getId}" class="cmxform ${form/getFormCssClassName}" enctype="multipart/form-data">
+	<fieldset>
+		<legend tal:condition="form/getLabel">${form/getLabelAsHtml}</legend>
+		<div>
+			<input type="hidden" name="${moduleName}Param[selfUrl]" tal:attributes="value selfUrl" />
+			<input type="hidden" name="${moduleName}Param[backUrl]" tal:attributes="value backUrl" />
+		</div>
+		<div class="description" tal:condition="form/getDescription" tal:content="form/getDescriptionAsHtml"></div>
+		<ul tal:condition="errors" class="errors">
+			<li tal:repeat="error errors" tal:content="error" />
+		</ul>
+		<ol>
+			<li tal:repeat="elm elements" tal:replace="elm" />
+			<li tal:condition="useCaptcha" class="captcha">
+				<img change:captcha="key php: 'form' . form.getId()" style="vertical-align: bottom" />
+				<input change:captcha="key php: 'form' . form.getId()" />
+			</li>
+		</ol>
+		<p class="buttons">
+			<input type="reset" class="button reset" i18n:attributes="value &amp;modules.form.frontoffice.Reset-button;" />
+			<input type="submit" class="button submit" name="${moduleName}Param[submit_${form/getId}]" id="submit_${form/getId}" tal:attributes="value form/getSubmitButton" />
+			<a class="button">Test</a>
+			<button class="button">Test button</button>
+		</p>
+		<div tal:condition="form/getFooter">
+			<div class="cleaner"></div>
+			<div class="bottom-description" tal:content="form/getFooter"></div>
+		</div>
+	</fieldset>
+</form>

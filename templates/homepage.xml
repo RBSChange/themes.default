@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<change:templates xmlns:change="http://www.rbs.fr/change/1.0/schema">
+	<change:template id="homepage">
+		<div class="container_12" id="top">
+			<div id="header">
+				<div class="grid_12" id="header-top">
+					<div class="grid_7 alpha">
+						<change:templateblock type="modules_website_taggedmenu" __tag="contextual_website_website_menu-header" __template="header" __depth="0"/>
+					</div>
+					<div class="grid_2">Mon compte</div>
+					<div class="grid_2">Panier</div>
+					<div class="grid_1 omega">
+						<change:templateblock type="modules_website_switchlanguage" editname="switchlanguage" __viewall="false" __showflag="" __displayMode="Scroll" />
+					</div>
+					<div class="clear"></div>
+				</div>
+				<div class="grid_12" id="header-middle">
+					<change:templateblock type="modules_website_xhtmltemplate" __template="Logo" editname="logo" />
+				</div>
+				<div class="clear"></div>
+				<div class="grid_12" id="header-bottom">
+					<change:templateblock type="modules_website_taggedmenu" editname="mainmenu" __tag="contextual_website_website_menu-main" __template="giant" __depth="2" />
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div id="content">
+				<div id="content-top">
+					<div class="grid_9">
+						<change:templateblock type="modules_website_thread" />
+					</div>
+					<div class="grid_3">
+						<change:templateblock type="modules_solrsearch_form" editname="searchform" />
+					</div>
+					<div class="clear"></div>
+				</div>
+				<div class="clear"></div>
+				<div class="grid_12" id="content-middle">
+					<div id="content-column">
+						<change:content id="content-block"/>
+					</div>
+					<div class="clear"></div>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div id="footer">
+				<div class="grid_12" id="footer-top">
+					<!-- TODO -->
+				</div>
+				<div class="grid_12" id="footer-middle">
+					<div id="footer-middle-blocks">		
+						<div class="grid_3 alpha">
+							<change:templateblock type="modules_website_taggedmenu" __tag="contextual_website_website_menu-header" __template="default" __depth="0" __startwebsitelevel="2" __class="normal" />
+						</div>
+						<div class="grid_3">
+							<change:templateblock type="modules_website_taggedmenu" __tag="contextual_website_website_menu-footer" __template="default" __depth="0" __startwebsitelevel="2" __class="normal" />
+						</div>
+						<div class="grid_3">
+							<change:templateblock type="modules_website_taggedmenu" __tag="contextual_website_website_menu-header" __template="default" __depth="0" __startwebsitelevel="2" __class="normal" />
+						</div>
+						<div class="grid_3 omega">
+							<change:templateblock type="modules_website_taggedmenu" __tag="contextual_website_website_menu-main" __template="default" __depth="0" __startwebsitelevel="2" __class="normal" />
+						</div>
+						<div class="clear"></div>
+					</div>
+				</div>
+				<div class="clear"></div>
+				<div class="grid_12" id="footer-bottom">
+					<div class="grid_6 alpha">
+						<change:templateblock type="modules_website_taggedmenu" __tag="contextual_website_website_menu-footer" __template="footer" __depth="0" />
+					</div>
+					<div class="grid_6 omega">
+						<change:templateblock type="modules_website_xhtmltemplate" __template="Copyrights" editname="copyrights" />
+					</div>
+				</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+	</change:template>
+	<change:template content-type="xul">
+		<hbox id="top">
+			<vbox id="content-column">
+				<change:content id="content-block" />
+			</vbox>
+		</hbox>
+	</change:template>
+</change:templates>

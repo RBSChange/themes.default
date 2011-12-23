@@ -1,21 +1,15 @@
-#bodycontent {
-	width: 1000px;
+#bodycontent{
+	width: 960px;
+	min-width: 960px;
+	max-width: 960px;
 }
-
-#header {
-	height: 110px;
+#content-column{
+	width: 720px;
+	min-width: 720px;
+	max-width: 720px;
 }
-
-#topheader {
-	padding-left: 20px;
-	padding-right: 20px;
-	height: 110px;
-}
-
-#contentcontextcolumn{
-	width: 250px;
-}
-
-#contentcolumn{
-	width: 750px;
+#sidebar-column{
+	width: 240px;
+	min-width: 240px;
+	max-width: 240px;
 }

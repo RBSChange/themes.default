@@ -1,0 +1,5 @@
+<tal:block tal:condition="menuObject" change:menu="menuObject menuObject; itemName item; masterUlClass scroll-menu; liCurrentClass current; liInPathClass inpath; liFirstInLevelClass first; liLastInLevelClass last; ulClass level%level">
+	<tal:block tal:condition="php: item.getLevel() EQ 1">TOTO</tal:block>
+	<tal:block tal:condition="not: repeat/item/isCurrent" change:menuitem="item" />
+	<strong tal:condition="repeat/item/isCurrent">${item/getLabel}</strong>
+</tal:block>
