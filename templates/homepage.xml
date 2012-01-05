@@ -44,8 +44,9 @@
 			</div>
 			<div id="footer">
 				<div class="grid_12" id="footer-top">
-					<!-- TODO -->
+					<change:templateblock type="modules_website_xhtmltemplate" __template="Empty" editname="content-bottom" />
 				</div>
+				<div class="clear"></div>
 				<div class="grid_12" id="footer-middle">
 					<div id="footer-middle-blocks">		
 						<div class="grid_3 alpha">
