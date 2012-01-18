@@ -340,12 +340,12 @@ form.cmxform .buttons {
 
 input.button, button.button, a.button {
 	background-color: #b1c708;
-	background-image: url(/media/themes/default/green-chevron.png);
-	background-image: url(/media/themes/default/green-chevron.png), -webkit-linear-gradient(top, #d5e750 10%, #c3dc05 15%, #9fb210 100%);
-	background-image: url(/media/themes/default/green-chevron.png), -moz-linear-gradient(top, #d5e750 10%, #c3dc05 15%, #9fb210 100%);
-	background-image: url(/media/themes/default/green-chevron.png), -o-linear-gradient(top, #d5e750 10%, #c3dc05 15%, #9fb210 100%);
-	background-image: url(/media/themes/default/green-chevron.png), -ms-linear-gradient(top, #d5e750 10%, #c3dc05 15%, #9fb210 100%);
-	background-image: url(/media/themes/default/green-chevron.png), linear-gradient(top, #d5e750 10%, #c3dc05 15%, #9fb210 100%);
+	background-image: url(/media/themes/default/darkgreen-chevron.png);
+	background-image: url(/media/themes/default/darkgreen-chevron.png), -webkit-linear-gradient(top, #d5e750 10%, #c3dc05 15%, #9fb210 100%);
+	background-image: url(/media/themes/default/darkgreen-chevron.png), -moz-linear-gradient(top, #d5e750 10%, #c3dc05 15%, #9fb210 100%);
+	background-image: url(/media/themes/default/darkgreen-chevron.png), -o-linear-gradient(top, #d5e750 10%, #c3dc05 15%, #9fb210 100%);
+	background-image: url(/media/themes/default/darkgreen-chevron.png), -ms-linear-gradient(top, #d5e750 10%, #c3dc05 15%, #9fb210 100%);
+	background-image: url(/media/themes/default/darkgreen-chevron.png), linear-gradient(top, #d5e750 10%, #c3dc05 15%, #9fb210 100%);
 	background-repeat: no-repeat;
 	background-position: right center, left top;
 	-moz-border-radius: 4px;
@@ -367,12 +367,12 @@ input.button, button.button, a.button {
 .modules-website-switchlanguage li span {
 	margin: 0 1px;
 }
-
 .modules-website-switchlanguage {
 	height: 40px;
 	display: table-cell;
 	vertical-align: middle;
 }
+
 .modules-website-switchlanguage .scroll {
 	width: 50px;
 	font-size: 12px;
@@ -425,6 +425,100 @@ input.button, button.button, a.button {
 .modules-website-switchlanguage .scroll a:hover {
 	color: #9eb110;
 	text-decoration: underline;
+}
+
+.modules-order-ShortCart,
+.modules-customer-Customerinfo {
+	height: 40px;
+	display: table-cell;
+	vertical-align: middle;	
+}
+.modules-order-ShortCart .scroll,
+.modules-customer-Customerinfo .scroll {
+	width: 140px;
+	font-size: 12px;
+	line-height: 14px;
+	text-align: left;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+.modules-order-ShortCart .scroll:hover,
+.modules-customer-Customerinfo .scroll:hover {
+	-moz-border-radius: 5px 5px 0 0;
+	border-radius: 5px 5px 0 0;
+}
+.modules-order-ShortCart .scroll ul,
+.modules-customer-Customerinfo .scroll ul {
+	display: none;
+}
+.modules-order-ShortCart .scroll:hover ul,
+.modules-customer-Customerinfo .scroll:hover ul {
+	display: block;
+	position:absolute;	
+	-moz-border-radius: 0 0 5px 5px;
+	border-radius: 0 0 5px 5px;
+	width: 126px;
+	padding: 0 5px;
+	background-color: #fff;
+}
+.modules-order-ShortCart .scroll .heading-two,
+.modules-customer-Customerinfo .scroll .heading-two {
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 22px;
+	padding: 0 21px 0 7px;
+	background-position: 95% center;
+	background-repeat: no-repeat;
+	margin: 0;
+	color: #fff;
+}
+.modules-order-ShortCart .scroll .heading-two span,
+.modules-customer-Customerinfo .scroll .heading-two span {
+	padding-left: 5px;
+}
+.modules-order-ShortCart .scroll .heading-two a:hover,
+.modules-customer-Customerinfo .scroll .heading-two a:hover {
+	color: #fff;
+}
+.modules-order-ShortCart .scroll li,
+.modules-customer-Customerinfo .scroll li {
+	margin: 0;
+	display: block;
+	padding: 4px 16px 4px 5px;
+}
+.modules-order-ShortCart .scroll li:not(:first-child),
+.modules-customer-Customerinfo .scroll li:not(:first-child){
+	border-top: 1px solid #ececec;
+}
+
+.modules-order-ShortCart .scroll {
+	background-color: #393a41;
+	background-image: -webkit-linear-gradient(top, #5e6469, #202020);
+	background-image: -moz-linear-gradient(top, #5e6469, #202020);
+	background-image: -o-linear-gradient(top, #5e6469, #202020);
+	background-image: -ms-linear-gradient(top, #5e6469, #202020);
+	background-image: linear-gradient(top, #5e6469, #202020);
+}
+.modules-order-ShortCart .scroll:hover ul {
+	border: 2px solid #202020;
+}
+.modules-order-ShortCart .scroll .heading-two {
+	background-image: url(/media/themes/default/green-chevron-h.png);
+}
+
+.modules-customer-Customerinfo .scroll {
+    background-color: #acc60d;
+	background-image: -webkit-linear-gradient(top, #c2db05, #9fb210);
+	background-image: -moz-linear-gradient(top, #c2db05, #9fb210);
+	background-image: -o-linear-gradient(top, #c2db05, #9fb210);
+	background-image: -ms-linear-gradient(top, #c2db05, #9fb210);
+	background-image: linear-gradient(top, #c2db05, #9fb210);
+}
+.modules-customer-Customerinfo .scroll:hover ul {
+	border: 2px solid #9fb210;
+}
+.modules-customer-Customerinfo .scroll .heading-two {
+	background-image: url(/media/themes/default/darkgreen-chevron-h.png);
 }
 
 .modules-website-thread {

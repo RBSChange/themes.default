@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<i18n baseKey="t.default.list" lcid="fr_FR">
+	<key id="blocktemplates-logo">logo</key>
+	<key id="blocktemplates-copyrights">copyright</key>
+	<key id="blocktemplates-empty">vide</key>
+</i18n>
