@@ -5,7 +5,7 @@
 			<div id="header">
 				<div class="grid_12" id="header-top">
 					<div class="grid_7 alpha">
-						<change:templateblock type="modules_website_taggedmenu" editname="header-top-1" __tag="contextual_website_website_menu-header" __template="header" __depth="0" />
+						<change:templateblock type="modules_website_ConfigurableMenu" editname="header-top-1" __mode="tag" __tag="contextual_website_website_menu-header" __displayMode="inline" __depth="1" />
 					</div>
 					<div class="grid_2"><change:templateblock type="modules_customer_Customerinfo" editname="header-top-2" /></div>
 					<div class="grid_2"><change:templateblock type="modules_order_ShortCart" editname="header-top-3" /></div>
@@ -19,7 +19,7 @@
 				</div>
 				<div class="clear"></div>
 				<div class="grid_12" id="header-bottom">
-					<change:templateblock type="modules_website_taggedmenu" editname="header-bottom-1" __tag="contextual_website_website_menu-main" __template="giant" __depth="2" />
+					<change:templateblock type="modules_website_ConfigurableMenu" editname="header-bottom-1" __mode="tag" __tag="contextual_website_website_menu-main" __displayMode="giant" __depth="2" />
 				</div>
 				<div class="clear"></div>
 			</div>
@@ -50,16 +50,16 @@
 				<div class="grid_12" id="footer-middle">
 					<div id="footer-middle-blocks">		
 						<div class="grid_3 alpha">
-							<change:templateblock type="modules_website_taggedmenu" editname="footer-middle-1" __tag="contextual_website_website_menu-header" __template="default" __depth="0" __startwebsitelevel="2" __class="normal" />
+							<change:templateblock type="modules_website_xhtmltemplate" editname="footer-middle-1" __template="empty" />
 						</div>
 						<div class="grid_3">
-							<change:templateblock type="modules_website_taggedmenu" editname="footer-middle-2" __tag="contextual_website_website_menu-footer" __template="default" __depth="0" __startwebsitelevel="2" __class="normal" />
+							<change:templateblock type="modules_website_xhtmltemplate" editname="footer-middle-2" __template="empty" />
 						</div>
 						<div class="grid_3">
-							<change:templateblock type="modules_website_taggedmenu" editname="footer-middle-3" __tag="contextual_website_website_menu-header" __template="default" __depth="0" __startwebsitelevel="2" __class="normal" />
+							<change:templateblock type="modules_website_xhtmltemplate" editname="footer-middle-3" __template="empty" />
 						</div>
 						<div class="grid_3 omega">
-							<change:templateblock type="modules_website_taggedmenu" editname="footer-middle-4" __tag="contextual_website_website_menu-main" __template="default" __depth="0" __startwebsitelevel="2" __class="normal" />
+							<change:templateblock type="modules_website_xhtmltemplate" editname="footer-middle-4" __template="empty" />
 						</div>
 						<div class="clear"></div>
 					</div>
@@ -67,7 +67,7 @@
 				<div class="clear"></div>
 				<div class="grid_12" id="footer-bottom">
 					<div class="grid_6 alpha">
-						<change:templateblock type="modules_website_taggedmenu" editname="footer-bottom-1" __tag="contextual_website_website_menu-footer" __template="footer" __depth="0" />
+						<change:templateblock type="modules_website_ConfigurableMenu" editname="footer-bottom-1" __mode="tag" __tag="contextual_website_website_menu-footer" __displayMode="inline" __depth="1" />
 					</div>
 					<div class="grid_6 omega">
 						<change:templateblock type="modules_website_xhtmltemplate" editname="footer-bottom-2" __template="Copyrights" />

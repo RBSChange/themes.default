@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <i18n baseKey="t.default.templates" lcid="fr_FR">
-  <key id="home">Accueil</key>
-  <key id="content">Contenu</key>
-  <key id="minimal">Contenu minimum</key>
-  <key id="popin">Popin</key>
-  <key id="ecom">E-commerce</key>
-  <key id="orderprocess">Process de commande</key>
+	<key id="homepage">Accueil</key>
+	<key id="contentpage">Contenu</key>
+	<key id="popin">Popin</key>
 </i18n>
