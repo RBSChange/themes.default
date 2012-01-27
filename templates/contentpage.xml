@@ -36,7 +36,9 @@
 				<div class="clear"></div>
 				<div class="grid_12" id="content-middle">
 					<div class="grid_3 alpha" id="sidebar-column">
-						<change:templateblock type="modules_website_ConfigurableMenu" editname="content-middle-1" __mode="contextual" __displayMode="contextual" __deployAll="false" __showTitle="true" __depth="2" __startLevel="1" />
+						<div class="normal-margin">
+							<change:templateblock type="modules_website_ConfigurableMenu" editname="content-middle-1" __mode="contextual" __displayMode="contextual" __deployAll="false" __showTitle="true" __depth="2" __startLevel="1" />
+						</div>
 						<change:content id="sidebar-block"/>
 					</div>
 					<div class="grid_9 omega" id="content-column">

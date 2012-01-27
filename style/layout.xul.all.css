@@ -1,14 +1,14 @@
-#bodycontent{
+#bodycontent {
 	width: 960px;
 	min-width: 960px;
 	max-width: 960px;
 }
-#content-column{
+#content-column {
 	width: 720px;
 	min-width: 720px;
 	max-width: 720px;
 }
-#sidebar-column{
+#sidebar-column {
 	width: 240px;
 	min-width: 240px;
 	max-width: 240px;

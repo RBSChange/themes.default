@@ -2,7 +2,9 @@
 @import url(/themes/default/style/960.css);
 
 /** Layout */
-#header-top, #footer-top, #homepage #content-middle {
+#header-top, 
+#footer-top, 
+#homepage #content-middle {
 	margin-bottom: 13px;
 }
 #header-top {
@@ -10,7 +12,8 @@
 	background-repeat: repeat-y, repeat-x, repeat-y;
 	background-position: left top, right bottom, right top;
 }
-#header-middle, #contentpage #content-middle {
+#header-middle, 
+#contentpage #content-middle {
 	background-image: url(/media/themes/default/grey-pixel.png), url(/media/themes/default/grey-pixel.png), url(/media/themes/default/grey-pixel.png);
 	background-repeat: repeat-y, repeat-x, repeat-y;
 	background-position: left top, right top, right top;
@@ -27,20 +30,24 @@
 #content-middle {
 	padding: 11px 0 ;
 }
-#header-top .alpha > div, #content-middle .alpha > div {
+#header-top .alpha > div, 
+#content-middle .alpha > div {
 	margin-left: 11px;
 }
-#header-top .omega > div, #content-middle .omega > div {
+#header-top .omega > div, 
+#content-middle .omega > div {
 	margin-right: 11px;
 }
 #homepage #content-middle > div {
 	margin: 0 11px;
 }
-#footer-bottom, #header-top {
+#footer-bottom, 
+#header-top {
 	height: 41px;
 	font-size: 11px;
 }
-#footer-bottom > div, #header-top > div {
+#footer-bottom > div, 
+#header-top > div {
 	height: 40px;
 	line-height: 40px;
 }
@@ -303,27 +310,32 @@
 }
 
 /** Richtext */
-.heading-one {
+.heading-one,
+.h-1 {
 	color: #1f1f1f;
 	font-size: 24px;
 	font-weight: normal;
 }
-.heading-two {
+.heading-two,
+.h-2 {
 	color: #393a41;
 	font-size: 20px;
 	font-weight: normal;
 }
-.heading-three {
+.heading-three,
+.h-3 {
 	color: #5e6469;
 	font-size: 18px;
 	font-weight: normal;
 }
-.heading-four {
+.heading-four,
+.h-4 {
 	color: #5e6469;
 	font-size: 16px;
 	font-weight: normal;
 }
-.heading-five {
+.heading-five,
+.h-5 {
 	color: #5e6469;
 	font-size: 14px;
 	font-weight: normal;
@@ -343,11 +355,9 @@ a.link:current {
 	color: #1f1f1f;
 }
 
-table.normal, table.normal tr td {
+table.normal, 
+table.normal tr td {
 	border: 1px solid #e2e2e2;
-}
-table.normal tr td, table.normal tr th {
-	padding: 8px 15px;
 }
 table.normal tr th {
 	background-color: #3e4245;
@@ -369,7 +379,8 @@ table.normal caption {
 	color: #5e6469;
 }
 
-ul.normal li, ol.normal li {
+ul.normal li, 
+ol.normal li {
 	margin: 0;
 }
 ul.normal li {
@@ -382,6 +393,13 @@ ul.normal li::before {
 	text-shadow: 1px 2px 2px #aaa;
 	margin-right: 5px;
 	font-size: 1.2em;
+}
+
+.document-list .odd {
+	background: #f9f9f9;
+}
+.document-list .even {	
+	background: #eee;
 }
 
 /** Pagination */
@@ -414,9 +432,7 @@ form.cmxform fieldset {
 	padding: 12px 16px;
 }
 form.cmxform legend {
-	font-size: 24px;
 	color: #b1c903;
-	text-transform: uppercase;
 	font-weight: normal;
 }
 form.cmxform .description {
@@ -453,6 +469,7 @@ input.button, button.button, a.button {
 /** Blocks */
 .modules-website-switchlanguage li {
 	margin: 0;
+	display: inline;
 }
 .modules-website-switchlanguage li span {
 	margin: 0 1px;
@@ -619,6 +636,9 @@ input.button, button.button, a.button {
 	background-position: left center;
 	background-repeat: no-repeat;
 }
+.modules-website-thread li{
+	display: inline;
+}
 .modules-website-thread a {
 	color: #1f1f1f;
 	text-decoration: none;
@@ -730,6 +750,16 @@ input.button, button.button, a.button {
 
 #footer-bottom .copyrights {
 	text-align: right;
+}
+
+.separator {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.inline-list dt,
+.document-infos dt {
+	font-weight: bold;
 }
 
 @import url(/themes/default/style/common.gecko.all.css);
