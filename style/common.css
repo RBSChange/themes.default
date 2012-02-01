@@ -228,7 +228,7 @@
 .modules-website-ConfigurableMenu .default ul {
 	margin-bottom: 0;
 }
-.modules-website-ConfigurableMenu .default .level1 ul{
+.modules-website-ConfigurableMenu .default .level1 ul {
 	margin-left: 20px;
 }
 
@@ -380,19 +380,29 @@ table.normal caption {
 }
 
 ul.normal li, 
-ol.normal li {
+ol.normal li,
+.menu-list li, 
+.menu-list dd {
 	margin: 0;
 }
-ul.normal li {
+ul.normal li,
+.menu-list li {
 	list-style-type: none;
 }
-ul.normal li::before {
+ul.normal li::before,
+.menu-list li::before,
+.menu-list dd::before {
 	color: #9eb110;
 	content: "»";
 	font-weight: bold;
 	text-shadow: 1px 2px 2px #aaa;
 	margin-right: 5px;
 	font-size: 1.2em;
+}
+.menu-list ul,
+.menu-list ol,
+.menu-list dl{
+	margin-left: 20px;
 }
 
 .document-list .odd {
