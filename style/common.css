@@ -375,7 +375,6 @@ table.normal tr:nth-child(even) td {
 	background-color: #fbfbfb;
 }
 table.normal caption {
-	font-size: 14px;
 	color: #5e6469;
 }
 
@@ -545,13 +544,15 @@ input.button, button.button, a.button {
 }
 
 .modules-order-ShortCart,
-.modules-customer-Customerinfo {
+.modules-customer-Customerinfo,
+.modules-users-showinfo {
 	height: 40px;
 	display: table-cell;
 	vertical-align: middle;	
 }
 .modules-order-ShortCart .scroll,
-.modules-customer-Customerinfo .scroll {
+.modules-customer-Customerinfo .scroll,
+.modules-users-showinfo .scroll {
 	width: 140px;
 	font-size: 12px;
 	line-height: 14px;
@@ -560,16 +561,19 @@ input.button, button.button, a.button {
 	border-radius: 5px;
 }
 .modules-order-ShortCart .scroll:hover,
-.modules-customer-Customerinfo .scroll:hover {
+.modules-customer-Customerinfo .scroll:hover,
+.modules-users-showinfo .scroll:hover {
 	-moz-border-radius: 5px 5px 0 0;
 	border-radius: 5px 5px 0 0;
 }
 .modules-order-ShortCart .scroll ul,
-.modules-customer-Customerinfo .scroll ul {
+.modules-customer-Customerinfo .scroll ul,
+.modules-users-showinfo .scroll ul {
 	display: none;
 }
 .modules-order-ShortCart .scroll:hover ul,
-.modules-customer-Customerinfo .scroll:hover ul {
+.modules-customer-Customerinfo .scroll:hover ul,
+.modules-users-showinfo .scroll:hover ul {
 	display: block;
 	position:absolute;	
 	-moz-border-radius: 0 0 5px 5px;
@@ -579,7 +583,8 @@ input.button, button.button, a.button {
 	background-color: #fff;
 }
 .modules-order-ShortCart .scroll .heading-two,
-.modules-customer-Customerinfo .scroll .heading-two {
+.modules-customer-Customerinfo .scroll .heading-two,
+.modules-users-showinfo .scroll .heading-two {
 	font-size: 12px;
 	font-weight: bold;
 	line-height: 22px;
@@ -590,21 +595,25 @@ input.button, button.button, a.button {
 	color: #fff;
 }
 .modules-order-ShortCart .scroll .heading-two span,
-.modules-customer-Customerinfo .scroll .heading-two span {
+.modules-customer-Customerinfo .scroll .heading-two span,
+.modules-users-showinfo .scroll .heading-two span {
 	padding-left: 5px;
 }
 .modules-order-ShortCart .scroll .heading-two a:hover,
-.modules-customer-Customerinfo .scroll .heading-two a:hover {
+.modules-customer-Customerinfo .scroll .heading-two a:hover,
+.modules-users-showinfo .scroll .heading-two a:hover {
 	color: #fff;
 }
 .modules-order-ShortCart .scroll li,
-.modules-customer-Customerinfo .scroll li {
+.modules-customer-Customerinfo .scroll li,
+.modules-users-showinfo .scroll li {
 	margin: 0;
 	display: block;
 	padding: 4px 16px 4px 5px;
 }
 .modules-order-ShortCart .scroll li:not(:first-child),
-.modules-customer-Customerinfo .scroll li:not(:first-child){
+.modules-customer-Customerinfo .scroll li:not(:first-child),
+.modules-users-showinfo .scroll li:not(:first-child) {
 	border-top: 1px solid #ececec;
 }
 
@@ -623,7 +632,8 @@ input.button, button.button, a.button {
 	background-image: url(/media/themes/default/green-chevron-h.png);
 }
 
-.modules-customer-Customerinfo .scroll {
+.modules-customer-Customerinfo .scroll,
+.modules-users-showinfo .scroll {
     background-color: #acc60d;
 	background-image: -webkit-linear-gradient(top, #c2db05, #9fb210);
 	background-image: -moz-linear-gradient(top, #c2db05, #9fb210);
@@ -631,10 +641,12 @@ input.button, button.button, a.button {
 	background-image: -ms-linear-gradient(top, #c2db05, #9fb210);
 	background-image: linear-gradient(top, #c2db05, #9fb210);
 }
-.modules-customer-Customerinfo .scroll:hover ul {
+.modules-customer-Customerinfo .scroll:hover ul,
+.modules-users-showinfo .scroll:hover ul {
 	border: 2px solid #9fb210;
 }
-.modules-customer-Customerinfo .scroll .heading-two {
+.modules-customer-Customerinfo .scroll .heading-two,
+.modules-users-showinfo .scroll .heading-two {
 	background-image: url(/media/themes/default/darkgreen-chevron-h.png);
 }
 
