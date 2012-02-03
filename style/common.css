@@ -784,6 +784,11 @@ input.button, button.button, a.button {
 	font-weight: bold;
 }
 
+.document-visual {
+	float: left;
+	margin-right: 5px;
+}
+
 @import url(/themes/default/style/common.gecko.all.css);
 @import url(/themes/default/style/common.trident.all.css);
 /*@import url(/themes/default/style/test.css);*/
