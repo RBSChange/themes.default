@@ -790,6 +790,13 @@ input.button, button.button, a.button {
 	margin-right: 5px;
 }
 
+.share-list li a {
+	opacity: 0.5;
+}
+.share-list li a:hover {
+	opacity: 1;
+}
+
 @import url(/themes/default/style/common.gecko.all.css);
 @import url(/themes/default/style/common.trident.all.css);
 /*@import url(/themes/default/style/test.css);*/
