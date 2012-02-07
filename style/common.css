@@ -341,6 +341,7 @@
 	font-weight: normal;
 }
 
+form.cmxform fieldset.radio > legend,
 body {
 	color: #393a41;
 }
@@ -436,11 +437,11 @@ ul.normal li::before,
 }
 
 /** Forms */
-form.cmxform fieldset {
+form.cmxform fieldset:not(.radio) {
 	border: 1px solid #b1c903;
 	padding: 12px 16px;
 }
-form.cmxform legend {
+form.cmxform fieldset:not(.radio) > legend {
 	color: #b1c903;
 	font-weight: normal;
 }
