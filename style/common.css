@@ -341,7 +341,7 @@
 	font-weight: normal;
 }
 
-form.cmxform fieldset.radio > legend,
+form.cmxform fieldset.inline-set > legend,
 body {
 	color: #393a41;
 }
@@ -379,17 +379,21 @@ table.normal caption {
 	color: #5e6469;
 }
 
-ul.normal li, 
-ol.normal li,
+ul.normal > li, 
+ol.normal > li,
 .menu-list li, 
 .menu-list dd {
 	margin: 0;
 }
-ul.normal li,
+ul.normal > li,
 .menu-list li {
 	list-style-type: none;
 }
-ul.normal li::before,
+ul.normal > li {
+	text-indent: -17px;
+	padding-left: 17px;
+}
+ul.normal > li::before,
 .menu-list li::before,
 .menu-list dd::before {
 	color: #9eb110;
@@ -437,11 +441,11 @@ ul.normal li::before,
 }
 
 /** Forms */
-form.cmxform fieldset:not(.radio) {
+form.cmxform fieldset:not(.inline-set) {
 	border: 1px solid #b1c903;
 	padding: 12px 16px;
 }
-form.cmxform fieldset:not(.radio) > legend {
+form.cmxform fieldset:not(.inline-set) > legend {
 	color: #b1c903;
 	font-weight: normal;
 }
@@ -677,7 +681,9 @@ input.button, button.button, a.button {
 	display: table-cell;
 	vertical-align: middle;
 }
-.modules-solrsearch-form p { 
+.modules-solrsearch-form form.cmxform fieldset  { 
+	padding: 0;
+	border: none;
 	/* Use flexible box model use all the space */
 	display: -webkit-box;
 	display: -moz-box;
@@ -795,6 +801,12 @@ input.button, button.button, a.button {
 }
 .share-list li a:hover {
 	opacity: 1;
+}
+
+.modules-ecomextended-managesearchfilters .normal li > dl {
+	display: inline;
+}
+.modules-ecomextended-managesearchfilters .normal li span {
 }
 
 @import url(/themes/default/style/common.gecko.all.css);
