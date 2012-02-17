@@ -371,9 +371,13 @@ table.normal tr th {
 	color: #c3dc05;
 	font-size: 14px;
 	font-weight: normal;
+	text-align: center;
 }
 table.normal tr:nth-child(even) td {
 	background-color: #fbfbfb;
+}
+table.normal tr:nth-child(odd) td {
+	background-color: #fff;
 }
 table.normal caption {
 	color: #5e6469;
