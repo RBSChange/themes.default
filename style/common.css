@@ -684,39 +684,15 @@ input.button, button.button, a.button {
 .modules-solrsearch-form form.cmxform fieldset  { 
 	padding: 0;
 	border: none;
-	/* Use flexible box model use all the space */
-	display: -webkit-box;
-	display: -moz-box;
-	display: -o-box;
-	display: -ms-box;
-	display: box;
-	-webkit-box-orient: horizontal;
-	-moz-box-orient: horizontal;
-	-o-box-orient: horizontal;
-	-ms-box-orient: horizontal;
-	box-orient: horizontal;
-	/* If flexible box model is not handled... */
 	text-align: right;
 }
 .modules-solrsearch-form input.textfield {
+	width: 60%;	
 	/* Search icon */
 	padding: 0 0 0 21px;
 	background-image: url(/media/themes/default/search-icon.png);
 	background-position: left center;
 	background-repeat: no-repeat;
-	/* Use flexible box model use all the space */
-	-webkit-box-flex: 1;
-	-moz-box-flex: 1;
-	-o-box-flex: 1;
-	-ms-box-flex: 1;
-	box-flex: 1;
-	display: -webkit-box;
-	display: -moz-box;
-	display: -o-box;
-	display: -ms-box;
-	display: box;
-	/* If flexible box model is not handled... */
-	width: 60%;	
 }
 .modules-solrsearch-form .button {
 	margin-left: 5px;
