@@ -394,17 +394,17 @@ ul.normal > li,
 	list-style-type: none;
 }
 ul.normal > li {
-	text-indent: -17px;
-	padding-left: 17px;
+	/* Simulate list-style-position: outside */
+	text-indent: -1em;	
+	padding-left: 1em;
 }
 ul.normal > li::before,
 .menu-list li::before,
 .menu-list dd::before {
 	color: #9eb110;
-	content: "»";
+	content: "» ";
 	font-weight: bold;
 	text-shadow: 1px 2px 2px #aaa;
-	margin-right: 5px;
 	font-size: 1.2em;
 }
 .menu-list ul,
@@ -700,13 +700,6 @@ input.button, button.button, a.button {
 }
 .modules-solrsearch-form .button {
 	margin-left: 5px;
-}
-
-.modules-website-ConfigurableSitemap ul {
-	margin-bottom: 0;
-}
-.modules-website-ConfigurableSitemap .level1 ul{
-	margin-left: 20px;
 }
 
 #footer-top .modules-rss-feed {
