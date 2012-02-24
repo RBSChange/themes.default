@@ -383,34 +383,43 @@ table.normal caption {
 	color: #5e6469;
 }
 
-ul.normal > li, 
-ol.normal > li,
-.menu-list li, 
-.menu-list dd {
-	margin: 0;
+ul.normal,
+ul.errors,
+ul.warnings,
+ul.messages,
+.menu-list ul,
+.menu-list dl,
+.menu-list {
+	margin-left: 0;
 }
 ul.normal > li,
-.menu-list li {
+ul.errors > li,
+ul.warnings > li,
+ul.messages > li,
+.menu-list > li,
+.menu-list > dd {
 	list-style-type: none;
-}
-ul.normal > li {
+	margin: 0;
 	/* Simulate list-style-position: outside */
 	text-indent: -1em;	
 	padding-left: 1em;
 }
 ul.normal > li::before,
-.menu-list li::before,
-.menu-list dd::before {
-	color: #9eb110;
+ul.errors > li::before,
+ul.warnings > li::before,
+ul.messages > li::before,
+.menu-list > li::before,
+.menu-list > dd::before {
+	
 	content: "» ";
 	font-weight: bold;
 	text-shadow: 1px 2px 2px #aaa;
 	font-size: 1.2em;
 }
-.menu-list ul,
-.menu-list ol,
-.menu-list dl{
-	margin-left: 20px;
+ul.normal > li::before,
+.menu-list > li::before,
+.menu-list > dd::before {
+	color: #9eb110;	
 }
 
 .document-list .odd {
