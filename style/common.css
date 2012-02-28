@@ -404,13 +404,21 @@ ul.messages > li,
 	text-indent: -1em;	
 	padding-left: 1em;
 }
+ul.normal > li > *,
+ul.errors > li > *,
+ul.warnings > li > *,
+ul.messages > li > *,
+.menu-list > li > *,
+.menu-list > dd > * {
+	/* Simulate list-style-position: outside */
+	text-indent: 0;
+}
 ul.normal > li::before,
 ul.errors > li::before,
 ul.warnings > li::before,
 ul.messages > li::before,
 .menu-list > li::before,
 .menu-list > dd::before {
-	
 	content: "» ";
 	font-weight: bold;
 	text-shadow: 1px 2px 2px #aaa;
@@ -420,6 +428,10 @@ ul.normal > li::before,
 .menu-list > li::before,
 .menu-list > dd::before {
 	color: #9eb110;	
+}
+
+dl.normal > dd {
+	margin: 3px 20px 8px 20px;
 }
 
 .document-list .odd {
@@ -785,8 +797,8 @@ input.button, button.button, a.button {
 }
 
 .document-visual {
-	float: left;
-	margin-right: 5px;
+	float: right;
+	margin-left: 5px;
 }
 
 .share-list li a {
