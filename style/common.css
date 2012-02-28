@@ -527,8 +527,7 @@ input.button, button.button, a.button {
 	text-align: center;
     text-transform: uppercase;
 }
-.modules-website-switchlanguage .scroll:hover,
-.modules-website-switchlanguage .scroll.show {
+.modules-website-switchlanguage .scroll:hover {
 	background-color: #393a41;
 	background-image: -webkit-linear-gradient(top, #5e6469, #202020);
 	background-image: -moz-linear-gradient(top, #5e6469, #202020);
@@ -542,8 +541,7 @@ input.button, button.button, a.button {
 .modules-website-switchlanguage .scroll ul {
 	display: none;
 }
-.modules-website-switchlanguage .scroll:hover ul,
-.modules-website-switchlanguage .scroll.show ul {
+.modules-website-switchlanguage .scroll:hover ul {
 	display: block;
 	position:absolute;	
 	-moz-border-radius: 0 0 5px 5px;
@@ -593,11 +591,8 @@ input.button, button.button, a.button {
 	border-radius: 5px;
 }
 .modules-order-ShortCart .scroll:hover,
-.modules-order-ShortCart .scroll.show,
 .modules-customer-Customerinfo .scroll:hover,
-.modules-customer-Customerinfo .scroll.show,
-.modules-users-showinfo .scroll:hover,
-.modules-users-showinfo .scroll.show {
+.modules-users-showinfo .scroll:hover {
 	-moz-border-radius: 5px 5px 0 0;
 	border-radius: 5px 5px 0 0;
 }
@@ -607,11 +602,8 @@ input.button, button.button, a.button {
 	display: none;
 }
 .modules-order-ShortCart .scroll:hover ul,
-.modules-order-ShortCart .scroll.show ul,
 .modules-customer-Customerinfo .scroll:hover ul,
-.modules-customer-Customerinfo .scroll.show ul,
-.modules-users-showinfo .scroll:hover ul,
-.modules-users-showinfo .scroll.show ul {
+.modules-users-showinfo .scroll:hover ul {
 	display: block;
 	position:absolute;	
 	-moz-border-radius: 0 0 5px 5px;
@@ -663,8 +655,7 @@ input.button, button.button, a.button {
 	background-image: -ms-linear-gradient(top, #5e6469, #202020);
 	background-image: linear-gradient(top, #5e6469, #202020);
 }
-.modules-order-ShortCart .scroll:hover ul,
-.modules-order-ShortCart .scroll.show ul {
+.modules-order-ShortCart .scroll:hover ul {
 	border: 2px solid #202020;
 }
 .modules-order-ShortCart .scroll .heading-two {
@@ -681,9 +672,7 @@ input.button, button.button, a.button {
 	background-image: linear-gradient(top, #c2db05, #9fb210);
 }
 .modules-customer-Customerinfo .scroll:hover ul,
-.modules-customer-Customerinfo .scroll.show ul,
-.modules-users-showinfo .scroll:hover ul,
-.modules-users-showinfo .scroll.show ul {
+.modules-users-showinfo .scroll:hover ul {
 	border: 2px solid #9fb210;
 }
 .modules-customer-Customerinfo .scroll .heading-two,
