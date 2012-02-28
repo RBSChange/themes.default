@@ -4,13 +4,13 @@
 	
 	<rootfolder module="theme">
 		<theme id="default" byCodename="default" label="RBS Change default theme" description="RBS Change default theme">
-			<pagetemplate byCodename="default/homepage" doctype="XHTML-5" 
+			<pagetemplate byCodename="default/homepage" doctype="HTML-5" 
 				useprojectcss="true" cssprint="themes.default.print" cssscreen="themes.default.common" js="themes.default.js.common" />
 								
-			<pagetemplate byCodename="default/contentpage" doctype="XHTML-5"
+			<pagetemplate byCodename="default/contentpage" doctype="HTML-5"
 				useprojectcss="true" cssprint="themes.default.print" cssscreen="themes.default.common" js="themes.default.js.common" />
 				
-			<pagetemplate byCodename="default/popin" doctype="XHTML-5" useprojectcss="false" cssscreen="themes.default.popin" />
+			<pagetemplate byCodename="default/popin" doctype="HTML-5" useprojectcss="false" cssscreen="themes.default.popin" />
 		</theme>
 	</rootfolder>
 </script>
