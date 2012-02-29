@@ -7,8 +7,8 @@
 					<div class="grid_7 alpha">
 						<change:templateblock type="modules_website_ConfigurableMenu" editname="header-top-1" __mode="tag" __tag="contextual_website_website_menu-header" __displayMode="inline" __depth="1" />
 					</div>
-					<div class="grid_2"><change:templateblock type="modules_customer_Customerinfo" editname="header-top-2" /></div>
-					<div class="grid_2"><change:templateblock type="modules_order_ShortCart" editname="header-top-3" /></div>
+					<div class="grid_2"><change:templateblock type="modules_website_xhtmltemplate" __template="Empty" editname="header-top-2" /></div>
+					<div class="grid_2"><change:templateblock type="modules_users_showinfo" editname="header-top-3" /></div>
 					<div class="grid_1 omega">
 						<change:templateblock type="modules_website_switchlanguage" editname="header-top-4" __viewall="false" __showflag="" __displayMode="Scroll"  />
 					</div>

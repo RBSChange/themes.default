@@ -1,15 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <script>
 	<binding fileName="modules/theme/persistentdocument/import/theme_binding.xml" />
-	
+
 	<rootfolder module="theme">
 		<theme id="default" byCodename="default" label="RBS Change default theme" description="RBS Change default theme">
-			<pagetemplate byCodename="default/homepage" doctype="HTML-5" 
-				useprojectcss="true" cssprint="themes.default.print" cssscreen="themes.default.common" js="themes.default.js.common" />
-								
-			<pagetemplate byCodename="default/contentpage" doctype="HTML-5"
-				useprojectcss="true" cssprint="themes.default.print" cssscreen="themes.default.common" js="themes.default.js.common" />
-				
+			<pagetemplate byCodename="default/homepage" doctype="HTML-5" useprojectcss="true" cssscreen="themes.default.common"
+				cssprint="themes.default.print" js="themes.default.js.common">
+				<pagetemplatedeclination byCodename="default/homepage-ecom">
+					<templateblock editname="header-top-2" type="modules_customer_Customerinfo" />
+					<templateblock editname="header-top-3" type="modules_order_ShortCart" />
+				</pagetemplatedeclination>
+			</pagetemplate>
+
+			<pagetemplate byCodename="default/contentpage" doctype="HTML-5" useprojectcss="true" cssscreen="themes.default.common"
+				cssprint="themes.default.print" js="themes.default.js.common">
+				<pagetemplatedeclination byCodename="default/contentpage-ecom">
+					<templateblock editname="header-top-2" type="modules_customer_Customerinfo" />
+					<templateblock editname="header-top-3" type="modules_order_ShortCart" />
+				</pagetemplatedeclination>
+			</pagetemplate>
+
 			<pagetemplate byCodename="default/popin" doctype="HTML-5" useprojectcss="false" cssscreen="themes.default.popin" />
 		</theme>
 	</rootfolder>
