@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<change:templates xmlns:change="http://www.rbs.fr/change/1.0/schema">
+<change:templates xmlns:change="http://www.rbs.fr/change/1.0/schema" templateType="tableCells">
 	<change:template id="contentpage">
 		<div class="container_12" id="top">
 			<div id="header">
@@ -7,7 +7,7 @@
 					<div class="grid_7 alpha">
 						<change:templateblock type="modules_website_ConfigurableMenu" editname="header-top-1" __mode="tag" __tag="contextual_website_website_menu-header" __displayMode="inline" __depth="1" />
 					</div>
-					<div class="grid_2"><change:templateblock type="modules_website_xhtmltemplate" __template="Empty" editname="header-top-2" /></div>
+					<div class="grid_2"><change:templateblock editname="header-top-2" /></div>
 					<div class="grid_2"><change:templateblock type="modules_users_showinfo" editname="header-top-3" /></div>
 					<div class="grid_1 omega">
 						<change:templateblock type="modules_website_switchlanguage" editname="header-top-4" __viewall="false" __showflag="" __displayMode="Scroll"  />
@@ -36,9 +36,7 @@
 				<div class="clear"></div>
 				<div class="grid_12" id="content-middle">
 					<div class="grid_3 alpha" id="sidebar-column">
-						<div class="normal-margin">
-							<change:templateblock type="modules_website_ConfigurableMenu" editname="content-middle-1" __mode="contextual" __displayMode="contextual" __deployAll="false" __showTitle="true" __depth="2" __startLevel="1" />
-						</div>
+						<change:templateblock type="modules_website_ConfigurableMenu" editname="content-middle-1" __mode="contextual" __displayMode="contextual" __deployAll="false" __showTitle="true" __depth="2" __startLevel="1" />
 						<change:content id="sidebar-block"/>
 					</div>
 					<div class="grid_9 omega" id="content-column">
@@ -52,16 +50,16 @@
 				<div class="grid_12" id="footer-middle">
 					<div id="footer-middle-blocks">		
 						<div class="grid_3 alpha">
-							<change:templateblock type="modules_website_xhtmltemplate" editname="footer-middle-1" __template="empty" />
+							<change:templateblock editname="footer-middle-1" />
 						</div>
 						<div class="grid_3">
-							<change:templateblock type="modules_website_xhtmltemplate" editname="footer-middle-2" __template="empty" />
+							<change:templateblock editname="footer-middle-2" />
 						</div>
 						<div class="grid_3">
-							<change:templateblock type="modules_website_xhtmltemplate" editname="footer-middle-3" __template="empty" />
+							<change:templateblock editname="footer-middle-3" />
 						</div>
 						<div class="grid_3 omega">
-							<change:templateblock type="modules_website_xhtmltemplate" editname="footer-middle-4" __template="empty" />
+							<change:templateblock editname="footer-middle-4" />
 						</div>
 						<div class="clear"></div>
 					</div>

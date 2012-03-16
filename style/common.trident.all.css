@@ -3,3 +3,8 @@ a.button,
 button.button {
 	padding: 3px 23px 3px 10px;
 }
+input.button.secondary, 
+a.button.secondary, 
+button.button.secondary {
+	padding: 3px 10px 3px 10px;
+}
