@@ -462,8 +462,7 @@ dl.normal > dd {
 
 /** Pagination */
 .pagination {
-	font-size: 10px;
-	text-transform: uppercase;
+	font-size: 11px;
 	border-top: 1px solid #7e8387;
 }
 .pagination li {
@@ -472,7 +471,7 @@ dl.normal > dd {
 .pagination li strong {
 	color: #9eb110;
 	border-top: 3px solid #9eb110;
-	padding: 4px 3px 0 3px;
+	padding: 5px 3px 0 3px;
 }
 .pagination li a {
 	color: #5e6469;
