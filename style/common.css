@@ -495,8 +495,7 @@ form.cmxform .description {
 	font-size: 12px;
 	color: #5e6469;
 }
-form.cmxform .buttons {
-	margin: 0;
+.buttons {
 	text-align: right;
 }
 
