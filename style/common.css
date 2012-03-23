@@ -531,16 +531,6 @@ a.button:hover {
 	background-image: url(/media/themes/default/darkgreen-chevron.png), -ms-linear-gradient(top , #5e6469, #202020);
 	background-image: url(/media/themes/default/darkgreen-chevron.png), linear-gradient(top , #5e6469, #202020);
 }
-input.button[disabled],
-button.button[disabled] {
-	background-color: #c8c8c8;
-	background-image: url(/media/themes/default/darkgreen-chevron.png), -webkit-linear-gradient(top, #e3e3e3 10%, #d0d0d0 15%, #aeaeae 100%);
-	background-image: url(/media/themes/default/darkgreen-chevron.png), -moz-linear-gradient(top, #e3e3e3 10%, #d0d0d0 15%, #aeaeae 100%);
-	background-image: url(/media/themes/default/darkgreen-chevron.png), -o-linear-gradient(top, #e3e3e3 10%, #d0d0d0 15%, #aeaeae 100%);
-	background-image: url(/media/themes/default/darkgreen-chevron.png), -ms-linear-gradient(top, #e3e3e3 10%, #d0d0d0 15%, #aeaeae 100%);
-	background-image: url(/media/themes/default/darkgreen-chevron.png), linear-gradient(top, #e3e3e3 10%, #d0d0d0 15%, #aeaeae 100%);
-	cursor: no-drop;
-}
 input.button.secondary,
 button.button.secondary,
 a.button.secondary {
@@ -564,6 +554,8 @@ a.button.secondary:hover {
 	background-image: -ms-linear-gradient(top, #5e6469, #202020);
 	background-image: linear-gradient(top, #5e6469, #202020);
 }
+input.button[disabled],
+button.button[disabled],
 input.button.secondary[disabled],
 button.button.secondary[disabled] {
 	background-color: #c8c8c8;
@@ -572,6 +564,9 @@ button.button.secondary[disabled] {
 	background-image: -o-linear-gradient(top, #e3e3e3 10%, #d0d0d0 15%, #aeaeae 100%);
 	background-image: -ms-linear-gradient(top, #e3e3e3 10%, #d0d0d0 15%, #aeaeae 100%);
 	background-image: linear-gradient(top, #e3e3e3 10%, #d0d0d0 15%, #aeaeae 100%);
+	background-position: left top;
+	padding: 3px 10px 3px 10px;	
+	cursor: no-drop;
 }
 
 /** Blocks */
@@ -872,7 +867,7 @@ button.button.secondary[disabled] {
 .modules-ecomextended-managesearchfilters .normal li span {
 }
 
-/** Product list */
+/** Product list, shelf list, sale list */
 .product-list > li,
 .shelf-list > li {
 	border: 1px #eee solid;
@@ -931,6 +926,14 @@ button.button.secondary[disabled] {
 }
 .shelf-list .shelf-sub-selection select {
 	max-width: 140px;
+}
+
+.sale-list > li {
+	border: 1px #eee solid;
+	padding: 5px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 .modules-catalog-product .columns {

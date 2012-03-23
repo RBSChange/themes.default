@@ -19,7 +19,7 @@
 				</div>
 				<div class="clear"></div>
 				<div class="grid_12" id="header-bottom">
-					<change:templateblock type="modules_website_ConfigurableMenu" editname="header-bottom-1" __mode="tag" __tag="contextual_website_website_menu-main" __displayMode="giant" __depth="2" />
+					<change:templateblock type="modules_website_ConfigurableMenu" editname="header-bottom-1" __mode="tag" __tag="contextual_website_website_menu-main" __displayMode="scroll" __depth="2" />
 				</div>
 				<div class="clear"></div>
 			</div>
