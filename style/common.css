@@ -71,6 +71,12 @@
 	margin: 12px 0;
 }
 
+#sidebar-column, 
+#content-column,
+#footer-middle-blocks > div {
+	min-height: 1px; /* handle empty zones */
+}
+
 #sidebar-column > .cblock:not(:last-child) {
 	margin-bottom: 20px;
 }
@@ -138,7 +144,8 @@
 	display: block;
 	position: absolute;
 	background-color: #fff;
-	border: 5px solid #202020;	
+	border: 5px solid #202020;
+	z-index: 1000000; /* The menu hover parts should be over than each other element. */
 }
 .modules-website-ConfigurableMenu .giant .level2 a,
 .modules-website-ConfigurableMenu .scroll .level2 a {
@@ -916,7 +923,6 @@ button.button.secondary[disabled] {
 	z-index: 10;
 }
 
-
 .product-list .product-label,
 .products-comparison-list .product-label,
 .shelf-list .shelf-label {
@@ -927,6 +933,9 @@ button.button.secondary[disabled] {
 	font-size: 0.7em;
 	line-height: 15px;
 	vertical-align: middle;
+}
+.product-list .product-price {
+	height: 15px;
 }
 .product-list .product-add,
 .products-comparison-list .product-add {
@@ -958,6 +967,9 @@ button.button.secondary[disabled] {
 	box-sizing: border-box;
 }
 
+.products-comparison-list .product-quantity-selector {
+	height: 22px;
+}
 .products-comparison-list table.normal tr th {
 	background-color: #3e4245;
 	background-image: -webkit-linear-gradient(left, #202020 50%, #5e6469 100%);
