@@ -878,6 +878,11 @@ button.button.secondary[disabled] {
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
+#contentpage #sidebar-column .product-list > li,
+#contentpage #sidebar-column .shelf-list > li {
+	margin-right: 0;
+	width: 209px;
+}
 #contentpage #content-column .product-list > li:nth-child(3n),
 #contentpage #content-column .shelf-list > li:nth-child(3n) {
 	margin-right: 0;
@@ -892,13 +897,28 @@ button.button.secondary[disabled] {
 }
 
 .product-list .product-visual,
+.products-comparison-list .product-visual,
 .shelf-list .shelf-visual {
 	height: 120px;
 	line-height: 120px;
 	vertical-align: middle;
 	margin-bottom: 5px;
+	overflow: hidden;
 }
+.product-list .pictograms-container,
+.products-comparison-list .pictograms-container {
+	height: 45px;
+	line-height: 45px;
+	vertical-align: middle;
+	position: relative;
+	right: 0;
+	bottom: 50px;
+	z-index: 10;
+}
+
+
 .product-list .product-label,
+.products-comparison-list .product-label,
 .shelf-list .shelf-label {
 	height: 35px;
 }
@@ -908,11 +928,13 @@ button.button.secondary[disabled] {
 	line-height: 15px;
 	vertical-align: middle;
 }
-.product-list .product-add {
+.product-list .product-add,
+.products-comparison-list .product-add {
 	margin-top: 5px;
 	height: 25px;
 }
-.product-list .product-add .button {
+.product-list .product-add .button,
+.products-comparison-list .product-add .button {
 	margin: 0;
 	font-size: 14px;
 	line-height: 17px;
@@ -936,8 +958,23 @@ button.button.secondary[disabled] {
 	box-sizing: border-box;
 }
 
+.products-comparison-list table.normal tr th {
+	background-color: #3e4245;
+	background-image: -webkit-linear-gradient(left, #202020 50%, #5e6469 100%);
+	background-image: -moz-linear-gradient(left, #202020 50%, #5e6469 100%);
+	background-image: -o-linear-gradient(left, #202020 50%, #5e6469 100%);
+	background-image: -ms-linear-gradient(left, #202020 50%, #5e6469 100%);
+	background-image: linear-gradient(left, #202020 50%, #5e6469 100%);
+}
+
 .modules-catalog-product .columns {
 	margin-top: 3px;
+}
+.modules-catalog-product .columns > :not(:last-child) {
+	border-right: 1px #eee solid;
+}
+.modules-catalog-product .additionnal-visuals li {
+	border: 1px #eee solid;
 }
 .modules-catalog-product .availability {
 	text-align: center;
