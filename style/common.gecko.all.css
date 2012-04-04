@@ -7,3 +7,6 @@ a.button.secondary {
 .modules-solrsearch-form input.button {
 	padding: 2px 20px 4px 10px;
 }
+.modules-solrsearch-form form.cmxform input.textfield {
+	min-height: 22px;
+}

@@ -771,24 +771,33 @@ button.button.secondary[disabled] {
 	text-decoration: underline;
 }
 
+.modules-solrsearch-form {
+	width: 100%;	
+	/* Vertical centering */
+	display: table;
+	table-layout: fixed;
+}
 .modules-solrsearch-form form {
 	/* Vertical centering */
 	height: 30px;
 	display: table-cell;
 	vertical-align: middle;
+	text-align: right;
 }
 .modules-solrsearch-form form.cmxform fieldset  { 
 	padding: 0;
 	border: none;
-	text-align: right;
+	display: inline-block;
 }
-.modules-solrsearch-form input.textfield {
-	width: 60%;	
+.modules-solrsearch-form form.cmxform input.textfield {
+	width: 150px;
+	max-width: 150px;
 	/* Search icon */
 	padding: 0 0 0 21px;
 	background-image: url(/media/themes/default/search-icon.png);
 	background-position: left center;
 	background-repeat: no-repeat;
+	min-height: 20px;
 }
 .modules-solrsearch-form .button {
 	margin-left: 5px;
@@ -999,6 +1008,32 @@ button.button.secondary[disabled] {
 	font-size: 1.4em;
 }
 
+/** jQuery UI */
+@import url(/themes/default/style/jqueryui.css);
+.ui-autocomplete {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 2px;
+	/* vertical scrolling */
+	max-height: 250px;
+	overflow-y: auto;
+}
+.ui-autocomplete li {
+	display: block;
+}
+.ui-autocomplete li a {
+	padding: 1px 5px 5px 5px;
+	display: block;
+}
+.ui-autocomplete li a:hover {
+	padding: 0 4px 4px 4px;
+	font-weight: normal;
+}
+.modules-solrsearch-form form.cmxform input.ui-autocomplete-loading {
+	background-image: url('/media/frontoffice/solrsearch/indicator.gif');
+}
+
+/** Browser specific styles */
 @import url(/themes/default/style/common.gecko.all.css);
 @import url(/themes/default/style/common.trident.all.css);
-/*@import url(/themes/default/style/test.css);*/
