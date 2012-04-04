@@ -1030,6 +1030,11 @@ button.button.secondary[disabled] {
 	padding: 0 4px 4px 4px;
 	font-weight: normal;
 }
+.ui-autocomplete-loading {
+	background-position: right center;
+	background-repeat: no-repeat;
+	background-image: url('/media/frontoffice/solrsearch/indicator.gif');
+}
 .modules-solrsearch-form form.cmxform input.ui-autocomplete-loading {
 	background-image: url('/media/frontoffice/solrsearch/indicator.gif');
 }
