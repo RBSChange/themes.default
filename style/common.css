@@ -4,7 +4,7 @@
 /** Layout */
 #header-top, 
 #footer-top, 
-#homepage #content-middle {
+#nosidebarpage #content-middle {
 	margin-bottom: 13px;
 }
 #header-top {
@@ -13,12 +13,12 @@
 	background-position: left top, right bottom, right top;
 }
 #header-middle, 
-#contentpage #content-middle {
+#sidebarpage #content-middle {
 	background-image: url(/media/themes/default/grey-pixel.png), url(/media/themes/default/grey-pixel.png), url(/media/themes/default/grey-pixel.png);
 	background-repeat: repeat-y, repeat-x, repeat-y;
 	background-position: left top, right top, right top;
 }
-#homepage #content-middle {
+#nosidebarpage #content-middle {
 	background-image: url(/media/themes/default/grey-pixel.png), url(/media/themes/default/grey-pixel.png), url(/media/themes/default/grey-pixel.png), url(/media/themes/default/grey-pixel.png);
 	background-repeat: repeat-y, repeat-x, repeat-y, repeat-x;
 	background-position: left top, right top, right top, right bottom;
@@ -38,7 +38,7 @@
 #content-middle .omega > div {
 	margin-right: 11px;
 }
-#homepage #content-middle > div {
+#nosidebarpage #content-middle > div {
 	margin: 0 11px;
 }
 #footer-bottom, 
@@ -894,21 +894,21 @@ button.button.secondary[disabled] {
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
-#contentpage #sidebar-column .product-list > li,
-#contentpage #sidebar-column .shelf-list > li {
+#sidebarpage #sidebar-column .product-list > li,
+#sidebarpage #sidebar-column .shelf-list > li {
 	margin-right: 0;
 	width: 209px;
 }
-#contentpage #content-column .product-list > li:nth-child(3n),
-#contentpage #content-column .shelf-list > li:nth-child(3n) {
+#sidebarpage #content-column .product-list > li:nth-child(3n),
+#sidebarpage #content-column .shelf-list > li:nth-child(3n) {
 	margin-right: 0;
 }
-#homepage #content-column .product-list > li:nth-child(4n),
-#homepage #content-column .shelf-list > li:nth-child(4n) {
+#nosidebarpage #content-column .product-list > li:nth-child(4n),
+#nosidebarpage #content-column .shelf-list > li:nth-child(4n) {
 	margin-right: 0;
 }
-#homepage #content-column .product-list > li,
-#homepage #content-column .shelf-list > li {
+#nosidebarpage #content-column .product-list > li,
+#nosidebarpage #content-column .shelf-list > li {
 	margin-right: 14px;	
 }
 

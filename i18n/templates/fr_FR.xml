@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <i18n baseKey="t.default.templates" lcid="fr_FR">
-	<key id="homepage">Accueil</key>
-	<key id="homepage-ecom">Accueil e-commerce</key>
-	<key id="contentpage">Contenu</key>
-	<key id="contentpage-ecom">Contenu e-commerce</key>
+	<key id="nosidebarpage">Sans "sidebar"</key>
+	<key id="nosidebarpage-ecom">Sans "sidebar" e-commerce</key>
+	<key id="sidebarpage">Avec "sidebar"</key>
+	<key id="sidebarpage-ecom">Avec "sidebar" e-commerce</key>
 	<key id="popin">Popin</key>
 </i18n>

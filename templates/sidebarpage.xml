@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <change:templates xmlns:change="http://www.rbs.fr/change/1.0/schema" templateType="tableCells">
-	<change:template id="contentpage">
+	<change:template id="sidebarpage">
 		<div class="container_12" id="top">
 			<div id="header">
 				<div class="grid_12" id="header-top">

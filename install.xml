@@ -4,17 +4,20 @@
 
 	<rootfolder module="theme">
 		<theme id="default" byCodename="default" label="RBS Change default theme" description="RBS Change default theme">
-			<pagetemplate byCodename="default/homepage" doctype="HTML-5" useprojectcss="true" cssscreen="themes.default.common"
-				cssprint="themes.default.print" js="themes.default.js.common">
-				<pagetemplatedeclination byCodename="default/homepage-ecom">
+			<image id="sidebar.png" byCodename="media/themes/default/template-sidebar.png" />
+			<image id="nosidebar.png" byCodename="media/themes/default/template-nosidebar.png" />
+		
+			<pagetemplate byCodename="default/nosidebarpage" doctype="HTML-5" useprojectcss="true" cssscreen="themes.default.common"
+				cssprint="themes.default.print" js="themes.default.js.common" thumbnail-refid="nosidebar.png">
+				<pagetemplatedeclination byCodename="default/nosidebarpage-ecom">
 					<templateblock editname="header-top-2" type="modules_customer_Customerinfo" />
 					<templateblock editname="header-top-3" type="modules_order_ShortCart" />
 				</pagetemplatedeclination>
 			</pagetemplate>
 
-			<pagetemplate byCodename="default/contentpage" doctype="HTML-5" useprojectcss="true" cssscreen="themes.default.common"
-				cssprint="themes.default.print" js="themes.default.js.common">
-				<pagetemplatedeclination byCodename="default/contentpage-ecom">
+			<pagetemplate byCodename="default/sidebarpage" doctype="HTML-5" useprojectcss="true" cssscreen="themes.default.common"
+				cssprint="themes.default.print" js="themes.default.js.common" thumbnail-refid="sidebar.png">
+				<pagetemplatedeclination byCodename="default/sidebarpage-ecom">
 					<templateblock editname="header-top-2" type="modules_customer_Customerinfo" />
 					<templateblock editname="header-top-3" type="modules_order_ShortCart" />
 				</pagetemplatedeclination>
