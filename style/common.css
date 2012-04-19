@@ -506,6 +506,14 @@ form.cmxform .description {
 	text-align: right;
 }
 
+input.textfield,
+textarea {
+	-webkit-appearance: none;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+}
+
 input.button,
 button.button,
 a.button {
@@ -925,6 +933,7 @@ button.button.secondary[disabled] {
 	height: 120px;
 	line-height: 120px;
 	vertical-align: middle;
+	position: relative;
 	margin-bottom: 5px;
 	overflow: hidden;
 }
@@ -933,9 +942,18 @@ button.button.secondary[disabled] {
 	height: 45px;
 	line-height: 45px;
 	vertical-align: middle;
-	position: relative;
+	position: absolute;
 	right: 0;
-	bottom: 50px;
+	bottom: 2px;
+	z-index: 10;
+}
+.products-comparison-list .product-remove-container {
+	height: 16px;
+	line-height: 16px;
+	vertical-align: middle;
+	position: absolute;
+	right: 0;
+	top: 0;
 	z-index: 10;
 }
 
@@ -1082,6 +1100,31 @@ button.button.secondary[disabled] {
 .modules-solrsearch-form form.cmxform input.ui-autocomplete-loading {
 	background-image: url('/media/frontoffice/solrsearch/indicator.gif');
 }
+.ui-widget-content {
+	background: transparent;
+}
+.ui-dialog {
+	background-color: #fff;
+	background-image: -webkit-linear-gradient(top, #ece8da, #fff 125px);
+	background-image: -moz-linear-gradient(top, #ece8da, #fff 125px);
+	background-image: -o-linear-gradient(top, #ece8da, #fff 125px);
+	background-image: -ms-linear-gradient(top, #ece8da, #fff 125px);
+	background-image: linear-gradient(top, #ece8da, #fff 125px);
+}
+.ui-widget {
+	font-size: 1em;
+}
+.ui-widget input.button,
+.ui-widget button.button,
+.ui-widget a.button {
+	font-size: 11px;
+}
+.ui-widget input.button.primary,
+.ui-widget button.button.primary,
+.ui-widget a.button.primary {
+	font-size: 16px;
+}
+
 
 /** Browser specific styles */
 @import url(/themes/default/style/common.gecko.all.css);
