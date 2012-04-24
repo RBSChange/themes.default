@@ -591,6 +591,16 @@ button.button.secondary[disabled] {
 	cursor: no-drop;
 }
 
+input.date-picker {
+	padding-right: 20px;
+	background-image: url(/media/changeicons/small/calendar.png);
+	background-position: right center;
+	background-repeat: no-repeat;
+}
+#ui-datepicker-div {
+	z-index: 10000 !important;
+}
+
 /** Blocks */
 .modules-website-switchlanguage li {
 	margin: 0;
@@ -1100,11 +1110,8 @@ button.button.secondary[disabled] {
 .modules-solrsearch-form form.cmxform input.ui-autocomplete-loading {
 	background-image: url('/media/frontoffice/solrsearch/indicator.gif');
 }
-.ui-widget-content {
-	background: transparent;
-}
 .ui-dialog {
-	background-color: #fff;
+	background: #fff;
 	background-image: -webkit-linear-gradient(top, #ece8da, #fff 125px);
 	background-image: -moz-linear-gradient(top, #ece8da, #fff 125px);
 	background-image: -o-linear-gradient(top, #ece8da, #fff 125px);
