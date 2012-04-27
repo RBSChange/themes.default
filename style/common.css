@@ -1033,7 +1033,7 @@ input.date-picker {
 	font-weight: bold;
 	font-size: 20px;
 }
-.modules-catalog-product .main-price .price {
+.modules-catalog .main-price .price {
 	font-size: 1.4em;
 }
 
@@ -1078,6 +1078,14 @@ input.date-picker {
 .modules-order .mode-price {
 	width: 75px;
 	max-width: 75px;
+}
+.modules-order td.product-infos ol {
+	margin-top: 5px;
+	margin-left: 5px;
+	font-size: 0.9em;
+}
+.modules-order td.product-infos ol li {
+	margin: 0;
 }
 
 /** Payment statuses */
@@ -1131,7 +1139,6 @@ input.date-picker {
 .ui-widget a.button.primary {
 	font-size: 16px;
 }
-
 
 /** Browser specific styles */
 @import url(/themes/default/style/common.gecko.all.css);
