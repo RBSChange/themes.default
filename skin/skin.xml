@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sections>
+	<section name="section-main">
+		<field name="mainbackgroundcolor" type="color" initialvalue="#fff" />
+		<field name="secondarybackgroundcolor" type="color" initialvalue="#fff" />
+		<field name="mainborderimage" type="imagecss" initialvalue="url(/media/themes/default/grey-pixel.png)" />
+		<field name="mainbordercolor" type="color" initialvalue="#ddd" />
+		<field name="secondaryborderimage" type="imagecss" initialvalue="url(/media/themes/default/darkgrey-pixel.png)" />
+		<field name="secondarybordercolor" type="color" initialvalue="#555a5e" />
+		<field name="maintextcolor" type="color" initialvalue="#393a41" />
+		<field name="mainlinkcolor" type="color" initialvalue="#9eb110" />
+		<field name="mainlinkhovercolor" type="color" initialvalue="#5e6469" />
+		<field name="mainlinkcurrentcolor" type="color" initialvalue="#1f1f1f" />
+		<field name="mainhoriontalarrowimage" type="imagecss" initialvalue="url(/media/themes/default/grey-chevron-h.png)" />
+		<field name="mainverticalarrowimage" type="imagecss" initialvalue="url(/media/themes/default/green-chevron.png)" />
+		<field name="headingonecolor" type="color" initialvalue="#1f1f1f" />
+		<field name="headingtwocolor" type="color" initialvalue="#393a41" />
+		<field name="headingthreecolor" type="color" initialvalue="#5e6469" />
+		<field name="alternateevencolor" type="color" initialvalue="#f4f4f4" />
+		<field name="alternateoddcolor" type="color" initialvalue="#fbfbfb" />
+	</section>
+	<section name="section-messages">
+		<field name="messagestextcolor" type="color" initialvalue="green" />
+		<field name="messagesbackgroundcolor" type="color" initialvalue="#ceb" />
+		<field name="warningstextcolor" type="color" initialvalue="#dc8401" />
+		<field name="warningsbackgroundcolor" type="color" initialvalue="#edb" />
+		<field name="errorstextcolor" type="color" initialvalue="#ff0000" />
+		<field name="errorsbackgroundcolor" type="color" initialvalue="#edc" />
+		<field name="highlighttextcolor" type="color" initialvalue="#000000" />
+		<field name="highlightbackgroundcolor" type="color" initialvalue="#ffff00" />
+	</section>
+	<section name="section-forms">
+		<field name="setbordercolor" type="color" initialvalue="#b1c903" />
+		<field name="fieldbackgroundcolor" type="color" initialvalue="#fff" />
+		<field name="fieldbordercolor" type="color" initialvalue="#ddd" />
+		<field name="fieldtextcolor" type="color" initialvalue="#393a41" />
+		<field name="fieldbackgroundhovercolor" type="color" initialvalue="#eee" />
+		<field name="fieldborderhovercolor" type="color" initialvalue="#ccc" />
+		<field name="fieldtexthovercolor" type="color" initialvalue="#282930" />
+	</section>
+	<section name="section-gradients">
+		<section name="section-grad-one">
+			<field name="gradonetopcolor" type="color" initialvalue="#6f757a" />
+			<field name="gradonefirstcolor" type="color" initialvalue="#5e6469" />
+			<field name="gradonesecondcolor" type="color" initialvalue="#202020" />
+			<field name="gradonetextcolor" type="color" initialvalue="#fff" />
+			<field name="gradonelinkcolor" type="color" initialvalue="#ccc" />
+			<field name="gradonehoriontalarrowimage" type="imagecss" initialvalue="url(/media/themes/default/darkgreen-chevron-h.png)" />
+			<field name="gradoneverticalarrowimage" type="imagecss" initialvalue="url(/media/themes/default/darkgreen-chevron.png)" />
+		</section>
+		<section name="section-grad-two">
+			<field name="gradtwotopcolor" type="color" initialvalue="#d5e750" />
+			<field name="gradtwofirstcolor" type="color" initialvalue="#c3dc05" />
+			<field name="gradtwosecondcolor" type="color" initialvalue="#9fb210" />
+			<field name="gradtwotextcolor" type="color" initialvalue="#fff" />
+			<field name="gradtwolinkcolor" type="color" initialvalue="#fff" />
+			<field name="gradtwohoriontalarrowimage" type="imagecss" initialvalue="url(/media/themes/default/darkgreen-chevron-h.png)" />
+			<field name="gradtwoverticalarrowimage" type="imagecss" initialvalue="url(/media/themes/default/darkgreen-chevron.png)" />
+		</section>
+		<section name="section-grad-three">
+			<field name="gradthreetopcolor" type="color" initialvalue="#afb19f" />
+			<field name="gradthreefirstcolor" type="color" initialvalue="#999c85" />
+			<field name="gradthreesecondcolor" type="color" initialvalue="#777967" />
+			<field name="gradthreetextcolor" type="color" initialvalue="#fff" />
+		</section>
+		<section name="section-grad-disabled">
+			<field name="graddisabledtopcolor" type="color" initialvalue="#e3e3e3" />
+			<field name="graddisabledfirstcolor" type="color" initialvalue="#d0d0d0" />
+			<field name="graddisabledsecondcolor" type="color" initialvalue="#aeaeae" />
+			<field name="graddisabledtextcolor" type="color" initialvalue="#fff" />
+		</section>
+	</section>
+	<section name="section-misc">
+		<field name="bullettextcolor" type="color" initialvalue="#9eb110" />
+		<field name="bulletshadowonecolor" type="color" initialvalue="#aaa" />
+		<field name="bulletshadowtwocolor" type="color" initialvalue="#000" />
+		<field name="searchimage" type="imagecss" initialvalue="url(/media/themes/default/search-icon.png)" />
+		<field name="threadimage" type="imagecss" initialvalue="url(/media/themes/default/thread-icon.png)" />
+		<field name="loadingimage" type="imagecss" initialvalue="url(/media/frontoffice/solrsearch/indicator.gif)" />
+	</section>
+	<section name="section-jgueryui">
+		<field name="uioverlaycolor" type="color" initialvalue="#2b2922" />
+		<field name="uishadowcolor" type="color" initialvalue="#cccccc" />
+		<field name="uiiconsaimage" type="imagecss" initialvalue="url(/media/themes/default/jqueryui/ui-icons_808080_256x240.png)" />
+		<field name="uiiconsbimage" type="imagecss" initialvalue="url(/media/themes/default/jqueryui/ui-icons_847e71_256x240.png)" />
+		<field name="uiiconscimage" type="imagecss" initialvalue="url(/media/themes/default/jqueryui/ui-icons_eeeeee_256x240.png)" />
+		<field name="uiiconsdimage" type="imagecss" initialvalue="url(/media/themes/default/jqueryui/ui-icons_ffffff_256x240.png)" />
+		<field name="uiiconseimage" type="imagecss" initialvalue="url(/media/themes/default/jqueryui/ui-icons_8dc262_256x240.png)" />
+		<field name="uiiconsfimage" type="imagecss" initialvalue="url(/media/themes/default/jqueryui/ui-icons_8dc262_256x240.png)" />
+		<field name="uiiconsgimage" type="imagecss" initialvalue="url(/media/themes/default/jqueryui/ui-icons_cd0a0a_256x240.png)" />
+	</section>
+</sections>

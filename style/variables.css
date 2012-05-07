@@ -1,0 +1,94 @@
+:root {
+	/** Main colors */
+	var-main-background-color: #fff /* @var mainbackgroundcolor */;
+	var-secondary-background-color: #fff /* @var secondarybackgroundcolor */;
+	var-main-text-color: #393a41 /* @var maintextcolor */;
+	var-main-link-color: #9eb110 /* @var mainlinkcolor */;
+	var-main-link-hover-color: #5e6469 /* @var mainlinkhovercolor */;
+	var-main-link-current-color: #1f1f1f /* @var mainlinkcurrentcolor */;
+	var-main-horiontal-arrow-image: url(/media/themes/default/grey-chevron-h.png) /* @var mainhoriontalarrowimage */;
+	var-main-vertical-arrow-image: url(/media/themes/default/green-chevron.png) /* @var mainverticalarrowimage */;
+	var-heading-one-color: #1f1f1f /* @var headingonecolor */;
+	var-heading-two-color: #393a41 /* @var headingtwocolor */;
+	var-heading-three-color: #5e6469 /* @var headingthreecolor */;
+	/** Borders
+	 * main-border-image: borders of the main zones (header and content)
+	 * main-border-color: menu items separators, table cells borders, shelves and products lists, etc.
+	 * secondary-border-image: separators over a gradient background (footer middle blocks)
+	 * secondary-border-color: separators over a gradient background (menu), current process step
+	 */
+	var-main-border-image: url(/media/themes/default/grey-pixel.png) /* @var mainborderimage */;
+	var-main-border-color: #ddd /* @var mainbordercolor */;
+	var-secondary-border-image: url(/media/themes/default/darkgrey-pixel.png) /* @var secondaryborderimage */;
+	var-secondary-border-color: #555a5e /* @var secondarybordercolor */;
+	/** Alternate colors */
+	var-alternate-even-color: #f4f4f4 /* @var alternateevencolor */;
+	var-alternate-odd-color: #fbfbfb /* @var alternateoddcolor */;
+	/** Messages */
+	var-messages-background-color: #ceb /* @var messagesbackgroundcolor */;
+	var-messages-text-color: green /* @var messagestextcolor */;
+	var-warnings-background-color: #edb /* @var warningsbackgroundcolor */;
+	var-warnings-text-color: #dc8401 /* @var warningstextcolor */;
+	var-errors-background-color: #edc /* @var errorsbackgroundcolor */;
+	var-errors-text-color: #ff0000 /* @var errorstextcolor */;
+	var-highlight-background-color: #ffff00 /* @var highlightbackgroundcolor */;
+	var-highlight-text-color: #000000 /* @var highlighttextcolor */;
+	/** Gradients 
+	 * grad-one: buttons hover, main menu, short cart, footer free content zone, table headers, etc.
+	 * grad-two: buttons, customer infos, contextual menu, etc.
+	 * grad-three: secondary buttons.
+	 */
+	var-grad-one-top-color: #6f757a /* @var gradonetopcolor */;
+	var-grad-one-first-color: #5e6469 /* @var gradonefirstcolor */;
+	var-grad-one-second-color: #202020 /* @var gradonesecondcolor */;
+	var-grad-one-text-color: #fff /* @var gradonetextcolor */;
+	var-grad-one-link-color: #ccc /* @var gradonelinkcolor */;
+	var-grad-one-horiontal-arrow-image: url(/media/themes/default/darkgreen-chevron-h.png) /* @var gradonehoriontalarrowimage */;
+	var-grad-one-vertical-arrow-image: url(/media/themes/default/darkgreen-chevron.png) /* @var gradoneverticalarrowimage */;
+	var-grad-two-top-color: #d5e750 /* @var gradtwotopcolor */;
+	var-grad-two-first-color: #c3dc05 /* @var gradtwofirstcolor */;
+	var-grad-two-second-color: #9fb210 /* @var gradtwosecondcolor */;
+	var-grad-two-text-color: #fff /* @var gradtwotextcolor */;
+	var-grad-two-link-color: #fff /* @var gradtwolinkcolor */;
+	var-grad-two-horiontal-arrow-image: url(/media/themes/default/darkgreen-chevron-h.png) /* @var gradtwohoriontalarrowimage */;
+	var-grad-two-vertical-arrow-image: url(/media/themes/default/darkgreen-chevron.png) /* @var gradtwoverticalarrowimage */;
+	var-grad-three-top-color: #afb19f /* @var gradthreetopcolor */;
+	var-grad-three-first-color: #999c85 /* @var gradthreefirstcolor */;
+	var-grad-three-second-color: #777967 /* @var gradthreesecondcolor */;
+	var-grad-three-text-color: #fff /* @var gradthreetextcolor */;
+	var-grad-disabled-top-color: #e3e3e3 /* @var graddisabledtopcolor */;
+	var-grad-disabled-first-color: #d0d0d0 /* @var graddisabledfirstcolor */;
+	var-grad-disabled-second-color: #aeaeae /* @var graddisabledsecondcolor */;
+	var-grad-disabled-text-color: #fff /* @var graddisabledtextcolor */;
+	/** Bullets
+	 * shadow-one: with main or secondary background
+	 * shadow-two: with gradient background
+	 */
+	/** Forms */
+	var-set-border-color: #b1c903 /* @var setbordercolor */;
+	var-field-background-color: #fff /* @var fieldbackgroundcolor */;
+	var-field-border-color: #ddd /* @var fieldbordercolor */;
+	var-field-text-color: #393a41 /* @var fieldtextcolor */;
+	var-field-background-hover-color: #eee /* @var fieldbackgroundhovercolor */;
+	var-field-border-hover-color: #ccc /* @var fieldborderhovercolor */;
+	var-field-texthover-color: #282930 /* @var fieldtexthovercolor */;
+	/** Misc
+	 * shadow-one: with main or secondary background
+	 * shadow-two: with gradient background
+	 */
+	var-bullet-text-color: #9eb110 /* @var bullettextcolor */;
+	var-bullet-shadow-one-color: #aaa /* @var bulletshadowonecolor */;
+	var-bullet-shadow-two-color: #000 /* @var bulletshadowtwocolor */;
+	var-search-image: url(/media/themes/default/search-icon.png) /* @var searchimage */;
+	var-loading-image: url(/media/frontoffice/solrsearch/indicator.gif) /* @var loadingimage */;
+	var-thread-image: url(/media/themes/default/thread-icon.png) /* @var threadimage */;
+	/** jQuery UI */
+	var-ui-overlay-color: #2b2922 /* @var uioverlaycolor */;
+	var-ui-shadow-color: #cccccc /* @var uishadowcolor */;
+	var-ui-icons-a-image: url(/media/themes/default/jqueryui/ui-icons_808080_256x240.png) /* @var uiiconsaimage */;
+	var-ui-icons-b-image: url(/media/themes/default/jqueryui/ui-icons_847e71_256x240.png) /* @var uiiconsbimage */;
+	var-ui-icons-c-image: url(/media/themes/default/jqueryui/ui-icons_eeeeee_256x240.png) /* @var uiiconscimage */;
+	var-ui-icons-d-image: url(/media/themes/default/jqueryui/ui-icons_ffffff_256x240.png) /* @var uiiconsdimage */;
+	var-ui-icons-e-image: url(/media/themes/default/jqueryui/ui-icons_8dc262_256x240.png) /* @var uiiconseimage */;
+	var-ui-icons-f-image: url(/media/themes/default/jqueryui/ui-icons_cd0a0a_256x240.png) /* @var uiiconsfimage */;
+}
