@@ -542,7 +542,7 @@ textarea:hover,
 select:hover {
 	border-color: var(field-border-hover-color);
 	background-color: var(field-background-hover-color);
-	color: var(field-text-hover-color);
+	color: var(field-texthover-color);
 }
 option {
 	background-color: var(field-background-color);
@@ -1145,7 +1145,7 @@ input.date-picker {
 	color: var(warnings-text-color);
 }
 .payment-success {
-	color: var(var-messages-text-color);
+	color: var(messages-text-color);
 }
 .payment-failed {
 	color: var(errors-text-color);

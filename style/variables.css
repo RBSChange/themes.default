@@ -90,5 +90,6 @@
 	var-ui-icons-c-image: url(/media/themes/default/jqueryui/ui-icons_eeeeee_256x240.png) /* @var uiiconscimage */;
 	var-ui-icons-d-image: url(/media/themes/default/jqueryui/ui-icons_ffffff_256x240.png) /* @var uiiconsdimage */;
 	var-ui-icons-e-image: url(/media/themes/default/jqueryui/ui-icons_8dc262_256x240.png) /* @var uiiconseimage */;
-	var-ui-icons-f-image: url(/media/themes/default/jqueryui/ui-icons_cd0a0a_256x240.png) /* @var uiiconsfimage */;
+	var-ui-icons-f-image: url(/media/themes/default/jqueryui/ui-icons_8dc262_256x240.png) /* @var uiiconsfimage */;
+	var-ui-icons-g-image: url(/media/themes/default/jqueryui/ui-icons_cd0a0a_256x240.png) /* @var uiiconsgimage */;
 }
