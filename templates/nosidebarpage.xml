@@ -78,10 +78,47 @@
 		</div>
 	</change:template>
 	<change:template content-type="xul" id="nosidebarpage">
-		<hbox id="top">
-			<vbox id="content-column">
-				<change:content id="content-block" />
+		<vbox id="top">
+			<vbox>
+				<hbox>
+					<box class="editable-block" flex="7">header-top-1</box>
+					<box class="editable-block" flex="2">header-top-2</box>
+					<box class="editable-block" flex="2">header-top-3</box>
+					<box class="editable-block" flex="1">header-top-4</box>
+				</hbox>
+				<hbox>
+					<box class="editable-block" flex="12">header-middle-1</box>
+				</hbox>
+				<hbox>
+					<box class="editable-block" flex="12">header-bottom-1</box>
+				</hbox>
 			</vbox>
-		</hbox>
+			<vbox>
+				<hbox>
+					<box class="editable-block" flex="9">content-top-1</box>
+					<box class="editable-block" flex="3">content-top-2</box>
+				</hbox>
+				<box>
+					<vbox id="content-column">
+						<change:content id="content-block"/>
+					</vbox>
+				</box>
+			</vbox>
+			<vbox>
+				<hbox>
+					<box class="editable-block" flex="12">footer-top-1</box>
+				</hbox>
+				<hbox>		
+					<box class="editable-block" flex="3">footer-middle-1</box>
+					<box class="editable-block" flex="3">footer-middle-2</box>
+					<box class="editable-block" flex="3">footer-middle-3</box>
+					<box class="editable-block" flex="3">footer-middle-4</box>
+				</hbox>
+				<hbox>
+					<box class="editable-block" flex="6">footer-bottom-1</box>
+					<box class="editable-block" flex="6">footer-bottom-2</box>
+				</hbox>
+			</vbox>
+		</vbox>
 	</change:template>
 </change:templates>
