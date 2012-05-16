@@ -462,7 +462,7 @@ ul.normal > li::before,
 	padding: 10px;
 	background: var(warnings-background-color);
 }
-.errors {
+.errors:not(.form-validation) {
 	color: var(errors-text-color);
 	border: 1px solid var(errors-text-color);
 	padding: 10px;
