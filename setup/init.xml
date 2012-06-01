@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<script>
+	<binding fileName="modules/theme/persistentdocument/import/theme_binding.xml" />
+
+	<rootfolder module="theme">
+		<theme id="default" byCodename="default" label="RBS Change default theme" description="RBS Change default theme">
+			<image id="sidebar.png" byCodename="media/themes/default/template-sidebar.png" />
+			<image id="nosidebar.png" byCodename="media/themes/default/template-nosidebar.png" />
+		
+			<pagetemplate byCodename="default/nosidebarpage" doctype="HTML-5" useprojectcss="true" cssscreen="themes.default.common"
+				cssprint="themes.default.print" js="themes.default.js.common" thumbnail-refid="nosidebar.png">
+				<pagetemplatedeclination byCodename="default/nosidebarpage-ecom">
+					<templateblock editname="header-top-2" type="modules_customer_Customerinfo" />
+					<templateblock editname="header-top-3" type="modules_order_ShortCart" />
+				</pagetemplatedeclination>
+			</pagetemplate>
+
+			<pagetemplate byCodename="default/sidebarpage" doctype="HTML-5" useprojectcss="true" cssscreen="themes.default.common"
+				cssprint="themes.default.print" js="themes.default.js.common" thumbnail-refid="sidebar.png">
+				<pagetemplatedeclination byCodename="default/sidebarpage-ecom">
+					<templateblock editname="header-top-2" type="modules_customer_Customerinfo" />
+					<templateblock editname="header-top-3" type="modules_order_ShortCart" />
+				</pagetemplatedeclination>
+			</pagetemplate>
+
+			<pagetemplate byCodename="default/popin" doctype="HTML-5" useprojectcss="false" cssscreen="themes.default.popin" />
+		</theme>
+	</rootfolder>
+</script>
