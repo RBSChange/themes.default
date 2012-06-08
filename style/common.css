@@ -14,14 +14,13 @@
 	background-repeat: repeat-y, repeat-x, repeat-y;
 	background-position: left top, right bottom, right top;
 }
-#header-middle, 
-#sidebarpage #content-middle {
+#header-middle {
 	background-color: var(secondary-background-color);
 	background-image: var(main-border-image), var(main-border-image), var(main-border-image);
 	background-repeat: repeat-y, repeat-x, repeat-y;
 	background-position: left top, right top, right top;
 }
-#nosidebarpage #content-middle {
+#content-middle {
 	background-color: var(secondary-background-color);
 	background-image: var(main-border-image), var(main-border-image), var(main-border-image), var(main-border-image);
 	background-repeat: repeat-y, repeat-x, repeat-y, repeat-x;
