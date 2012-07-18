@@ -105,10 +105,10 @@
 				</hbox>
 				<hbox id="top">
 					<vbox id="sidebar-column">
-						<hbox>
+						<vbox>
 							<box flex="1" class="editable-block">content-middle-1</box>
 							<box flex="1" class="editable-block">content-middle-2</box>
-						</hbox>
+						</vbox>
 						<change:content id="sidebar-block"/>
 					</vbox>
 					<vbox id="content-column">
