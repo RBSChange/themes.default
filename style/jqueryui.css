@@ -79,8 +79,7 @@
 	background-image: -webkit-linear-gradient(top, var(grad-two-first-color), var(grad-two-second-color));
 	background-image: -moz-linear-gradient(top, var(grad-two-first-color), var(grad-two-second-color));
 	background-image: -o-linear-gradient(top, var(grad-two-first-color), var(grad-two-second-color));
-	background-image: -ms-linear-gradient(top, var(grad-two-first-color), var(grad-two-second-color));
-	background-image: linear-gradient(top, var(grad-two-first-color), var(grad-two-second-color));
+	background-image: linear-gradient(to bottom, var(grad-two-first-color), var(grad-two-second-color));
 	background-repeat: no-repeat;
 	background-position: right center, left top;
 	color: var(grad-two-text-color);
@@ -96,8 +95,7 @@
 	background-image: -webkit-linear-gradient(top, var(grad-three-first-color), var(grad-three-second-color));
 	background-image: -moz-linear-gradient(top, var(grad-three-first-color), var(grad-three-second-color));
 	background-image: -o-linear-gradient(top, var(grad-three-first-color), var(grad-three-second-color));
-	background-image: -ms-linear-gradient(top, var(grad-three-first-color), var(grad-three-second-color));
-	background-image: linear-gradient(top, var(grad-three-first-color), var(grad-three-second-color));
+	background-image: linear-gradient(to bottom, var(grad-three-first-color), var(grad-three-second-color));
 	background-repeat: no-repeat;
 	background-position: right center, left top;
 	color: var(grad-three-text-color);
@@ -110,8 +108,7 @@
 	background-image: -webkit-linear-gradient(top, var(grad-one-first-color), var(grad-one-second-color));
 	background-image: -moz-linear-gradient(top, var(grad-one-first-color), var(grad-one-second-color));
 	background-image: -o-linear-gradient(top, var(grad-one-first-color), var(grad-one-second-color));
-	background-image: -ms-linear-gradient(top, var(grad-one-first-color), var(grad-one-second-color));
-	background-image: linear-gradient(top, var(grad-one-first-color), var(grad-one-second-color));
+	background-image: linear-gradient(to bottom, var(grad-one-first-color), var(grad-one-second-color));
 	background-repeat: no-repeat;
 	background-position: right center, left top;
 	color: var(grad-one-text-color);
