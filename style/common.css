@@ -64,8 +64,7 @@
 	background-image: -webkit-linear-gradient(top, var(grad-one-first-color), var(grad-one-second-color));
 	background-image: -moz-linear-gradient(top, var(grad-one-first-color), var(grad-one-second-color));
 	background-image: -o-linear-gradient(top, var(grad-one-first-color), var(grad-one-second-color));
-	background-image: -ms-linear-gradient(top, var(grad-one-first-color), var(grad-one-second-color));
-	background-image: linear-gradient(top, var(grad-one-first-color), var(grad-one-second-color));
+	background-image: linear-gradient(to bottom, var(grad-one-first-color), var(grad-one-second-color));
 }
 #footer-middle-blocks {
 	background-image: var(secondary-border-image), var(secondary-border-image), var(secondary-border-image);
@@ -91,8 +90,7 @@
 	background-image: -webkit-linear-gradient(top, var(grad-one-first-color), var(grad-one-second-color));
 	background-image: -moz-linear-gradient(top, var(grad-one-first-color), var(grad-one-second-color));
 	background-image: -o-linear-gradient(top, var(grad-one-first-color), var(grad-one-second-color));
-	background-image: -ms-linear-gradient(top, var(grad-one-first-color), var(grad-one-second-color));
-	background-image: linear-gradient(top, var(grad-one-first-color), var(grad-one-second-color));
+	background-image: linear-gradient(to bottom, var(grad-one-first-color), var(grad-one-second-color));
 }
 .modules-website-ConfigurableMenu .giant .level1 li,
 .modules-website-ConfigurableMenu .scroll .level1 li {
@@ -263,8 +261,7 @@
 	background-image: -webkit-linear-gradient(225deg, var(secondary-background-color) 11px, transparent 11px), -webkit-linear-gradient(135deg, var(secondary-background-color) 11px, transparent 11px), -webkit-linear-gradient(top, var(grad-two-first-color), var(grad-two-second-color));
 	background-image: -moz-linear-gradient(225deg, var(secondary-background-color) 11px, transparent 11px), -moz-linear-gradient(135deg, var(secondary-background-color) 11px, transparent 11px), -moz-linear-gradient(top, var(grad-two-first-color), var(grad-two-second-color));
 	background-image: -o-linear-gradient(225deg, var(secondary-background-color) 11px, transparent 11px), -o-linear-gradient(135deg, var(secondary-background-color) 11px, transparent 11px), -o-linear-gradient(top, var(grad-two-first-color), var(grad-two-second-color));
-	background-image: -ms-linear-gradient(225deg, var(secondary-background-color) 11px, transparent 11px), -ms-linear-gradient(135deg, var(secondary-background-color) 11px, transparent 11px), -ms-linear-gradient(top, var(grad-two-first-color), var(grad-two-second-color));
-	background-image: linear-gradient(225deg, var(secondary-background-color) 11px, transparent 11px), linear-gradient(135deg, var(secondary-background-color) 11px, transparent 11px), linear-gradient(top, var(grad-two-first-color), var(grad-two-second-color));
+	background-image: linear-gradient(225deg, var(secondary-background-color) 11px, transparent 11px), linear-gradient(315deg, var(secondary-background-color) 11px, transparent 11px), linear-gradient(to bottom, var(grad-two-first-color), var(grad-two-second-color));
 	padding: 0 26px 0 12px;
 	font-size: 14px;
 	font-weight: normal;
@@ -377,8 +374,7 @@ table.normal tr th {
 	background-image: -webkit-linear-gradient(top, var(grad-one-first-color), var(grad-one-second-color));
 	background-image: -moz-linear-gradient(top, var(grad-one-first-color), var(grad-one-second-color));
 	background-image: -o-linear-gradient(top, var(grad-one-first-color), var(grad-one-second-color));
-	background-image: -ms-linear-gradient(top, var(grad-one-first-color), var(grad-one-second-color));
-	background-image: linear-gradient(top, var(grad-one-first-color), var(grad-one-second-color));
+	background-image: linear-gradient(to bottom, var(grad-one-first-color), var(grad-one-second-color));
 	border: none;
 	color: var(grad-one-text-color);
 	font-size: 14px;
@@ -560,8 +556,7 @@ a.button {
 	background-image: var(grad-two-horiontal-arrow-image), -webkit-linear-gradient(top, var(grad-two-top-color) 10%, var(grad-two-first-color) 15%, var(grad-two-second-color));
 	background-image: var(grad-two-horiontal-arrow-image), -moz-linear-gradient(top, var(grad-two-top-color) 10%, var(grad-two-first-color) 15%, var(grad-two-second-color));
 	background-image: var(grad-two-horiontal-arrow-image), -o-linear-gradient(top, var(grad-two-top-color) 10%, var(grad-two-first-color) 15%, var(grad-two-second-color));
-	background-image: var(grad-two-horiontal-arrow-image), -ms-linear-gradient(top, var(grad-two-top-color) 10%, var(grad-two-first-color) 15%, var(grad-two-second-color));
-	background-image: var(grad-two-horiontal-arrow-image), linear-gradient(top, var(grad-two-top-color) 10%, var(grad-two-first-color) 15%, var(grad-two-second-color));
+	background-image: var(grad-two-horiontal-arrow-image), linear-gradient(to bottom, var(grad-two-top-color) 10%, var(grad-two-first-color) 15%, var(grad-two-second-color));
 	background-repeat: no-repeat;
 	background-position: right center, left top;
 	-moz-border-radius: 4px;
@@ -582,8 +577,7 @@ a.button:hover {
 	background-image: var(grad-one-horiontal-arrow-image), -webkit-linear-gradient(top, var(grad-one-top-color) 10%, var(grad-one-first-color) 15%, var(grad-one-second-color));
 	background-image: var(grad-one-horiontal-arrow-image), -moz-linear-gradient(top, var(grad-one-top-color) 10%, var(grad-one-first-color) 15%, var(grad-one-second-color));
 	background-image: var(grad-one-horiontal-arrow-image), -o-linear-gradient(top, var(grad-one-top-color) 10%, var(grad-one-first-color) 15%, var(grad-one-second-color));
-	background-image: var(grad-one-horiontal-arrow-image), -ms-linear-gradient(top, var(grad-one-top-color) 10%, var(grad-one-first-color) 15%, var(grad-one-second-color));
-	background-image: var(grad-one-horiontal-arrow-image), linear-gradient(top, var(grad-one-top-color) 10%, var(grad-one-first-color) 15%, var(grad-one-second-color));
+	background-image: var(grad-one-horiontal-arrow-image), linear-gradient(to bottom, var(grad-one-top-color) 10%, var(grad-one-first-color) 15%, var(grad-one-second-color));
 }
 input.button.primary,
 button.button.primary,
@@ -599,8 +593,7 @@ a.button.secondary {
 	background-image: -webkit-linear-gradient(top, var(grad-three-top-color) 10%, var(grad-three-first-color) 15%, var(grad-three-second-color));
 	background-image: -moz-linear-gradient(top, var(grad-three-top-color) 10%, var(grad-three-first-color) 15%, var(grad-three-second-color));
 	background-image: -o-linear-gradient(top, var(grad-three-top-color) 10%, var(grad-three-first-color) 15%, var(grad-three-second-color));
-	background-image: -ms-linear-gradient(top, var(grad-three-top-color) 10%, var(grad-three-first-color) 15%, var(grad-three-second-color));
-	background-image: linear-gradient(top, var(grad-three-top-color) 10%, var(grad-three-first-color) 15%, var(grad-three-second-color));
+	background-image: linear-gradient(to bottom, var(grad-three-top-color) 10%, var(grad-three-first-color) 15%, var(grad-three-second-color));
 	background-position: left top;
 	padding: 3px 10px 3px 10px;
 }
@@ -612,8 +605,7 @@ a.button.secondary:hover {
 	background-image: -webkit-linear-gradient(top, var(grad-one-top-color) 10%, var(grad-one-first-color) 15%, var(grad-one-second-color));
 	background-image: -moz-linear-gradient(top, var(grad-one-top-color) 10%, var(grad-one-first-color) 15%, var(grad-one-second-color));
 	background-image: -o-linear-gradient(top, var(grad-one-top-color) 10%, var(grad-one-first-color) 15%, var(grad-one-second-color));
-	background-image: -ms-linear-gradient(top, var(grad-one-top-color) 10%, var(grad-one-first-color) 15%, var(grad-one-second-color));
-	background-image: linear-gradient(top, var(grad-one-top-color) 10%, var(grad-one-first-color) 15%, var(grad-one-second-color));
+	background-image: linear-gradient(to bottom, var(grad-one-top-color) 10%, var(grad-one-first-color) 15%, var(grad-one-second-color));
 }
 input.button[disabled],
 button.button[disabled],
@@ -624,8 +616,7 @@ button.button.secondary[disabled] {
 	background-image: -webkit-linear-gradient(top, var(grad-disabled-top-color) 10%, var(grad-disabled-first-color) 15%, var(grad-disabled-second-color));
 	background-image: -moz-linear-gradient(top, var(grad-disabled-top-color) 10%, var(grad-disabled-first-color) 15%, var(grad-disabled-second-color));
 	background-image: -o-linear-gradient(top, var(grad-disabled-top-color) 10%, var(grad-disabled-first-color) 15%, var(grad-disabled-second-color));
-	background-image: -ms-linear-gradient(top, var(grad-disabled-top-color) 10%, var(grad-disabled-first-color) 15%, var(grad-disabled-second-color));
-	background-image: linear-gradient(top, var(grad-disabled-top-color) 10%, var(grad-disabled-first-color) 15%, var(grad-disabled-second-color));
+	background-image: linear-gradient(to bottom, var(grad-disabled-top-color) 10%, var(grad-disabled-first-color) 15%, var(grad-disabled-second-color));
 	background-position: left top;
 	padding: 3px 10px 3px 10px;	
 	cursor: no-drop;
@@ -668,8 +659,7 @@ input.date-picker {
 	background-image: -webkit-linear-gradient(top, var(grad-one-first-color), var(grad-one-second-color));
 	background-image: -moz-linear-gradient(top, var(grad-one-first-color), var(grad-one-second-color));
 	background-image: -o-linear-gradient(top, var(grad-one-first-color), var(grad-one-second-color));
-	background-image: -ms-linear-gradient(top, var(grad-one-first-color), var(grad-one-second-color));
-	background-image: linear-gradient(top, var(grad-one-first-color), var(grad-one-second-color));
+	background-image: linear-gradient(to bottom, var(grad-one-first-color), var(grad-one-second-color));
 	color: var(grad-one-text-color);
 	-moz-border-radius: 5px 5px 0 0;
 	border-radius: 5px 5px 0 0;
@@ -785,8 +775,7 @@ input.date-picker {
 	background-image: -webkit-linear-gradient(top, var(grad-one-first-color), var(grad-one-second-color));
 	background-image: -moz-linear-gradient(top, var(grad-one-first-color), var(grad-one-second-color));
 	background-image: -o-linear-gradient(top, var(grad-one-first-color), var(grad-one-second-color));
-	background-image: -ms-linear-gradient(top, var(grad-one-first-color), var(grad-one-second-color));
-	background-image: linear-gradient(top, var(grad-one-first-color), var(grad-one-second-color));
+	background-image: linear-gradient(to bottom, var(grad-one-first-color), var(grad-one-second-color));
 }
 .modules-order-ShortCart .scroll:hover ul {
 	border: 2px solid var(grad-one-second-color);
@@ -808,8 +797,7 @@ input.date-picker {
 	background-image: -webkit-linear-gradient(top, var(grad-two-first-color), var(grad-two-second-color));
 	background-image: -moz-linear-gradient(top, var(grad-two-first-color), var(grad-two-second-color));
 	background-image: -o-linear-gradient(top, var(grad-two-first-color), var(grad-two-second-color));
-	background-image: -ms-linear-gradient(top, var(grad-two-first-color), var(grad-two-second-color));
-	background-image: linear-gradient(top, var(grad-two-first-color), var(grad-two-second-color));
+	background-image: linear-gradient(to bottom, var(grad-two-first-color), var(grad-two-second-color));
 }
 .modules-customer-Customerinfo .scroll:hover ul,
 .modules-users-showinfo .scroll:hover ul {
@@ -892,8 +880,7 @@ input.date-picker {
 	background-image: -webkit-linear-gradient(225deg, var(secondary-background-color) 11px, transparent 11px), -webkit-linear-gradient(135deg, var(secondary-background-color) 11px, transparent 11px), -webkit-linear-gradient(top, var(grad-two-first-color), var(grad-two-second-color));
 	background-image: -moz-linear-gradient(225deg, var(secondary-background-color) 11px, transparent 11px), -moz-linear-gradient(135deg, var(secondary-background-color) 11px, transparent 11px), -moz-linear-gradient(top, var(grad-two-first-color), var(grad-two-second-color));
 	background-image: -o-linear-gradient(225deg, var(secondary-background-color) 11px, transparent 11px), -o-linear-gradient(135deg, var(secondary-background-color) 11px, transparent 11px), -o-linear-gradient(top, var(grad-two-first-color), var(grad-two-second-color));
-	background-image: -ms-linear-gradient(225deg, var(secondary-background-color) 11px, transparent 11px), -ms-linear-gradient(135deg, var(secondary-background-color) 11px, transparent 11px), -ms-linear-gradient(top, var(grad-two-first-color), var(grad-two-second-color));
-	background-image: linear-gradient(225deg, var(secondary-background-color) 11px, transparent 11px), linear-gradient(135deg, var(secondary-background-color) 11px, transparent 11px), linear-gradient(top, var(grad-two-first-color), var(grad-two-second-color));
+	background-image: linear-gradient(225deg, var(secondary-background-color) 11px, transparent 11px), linear-gradient(315deg, var(secondary-background-color) 11px, transparent 11px), linear-gradient(to bottom, var(grad-two-first-color), var(grad-two-second-color));
 	color: var(grad-two-text-color);
 	padding: 0 26px 0 12px;
 	font-size: 14px;
@@ -1063,8 +1050,7 @@ input.date-picker {
 	background-image: -webkit-linear-gradient(left, var(grad-one-second-color) 50%, var(grad-one-first-color) 100%);
 	background-image: -moz-linear-gradient(left, var(grad-one-second-color) 50%, var(grad-one-first-color) 100%);
 	background-image: -o-linear-gradient(left, var(grad-one-second-color) 50%, var(grad-one-first-color) 100%);
-	background-image: -ms-linear-gradient(left, var(grad-one-second-color) 50%, var(grad-one-first-color) 100%);
-	background-image: linear-gradient(left, var(grad-one-second-color) 50%, var(grad-one-first-color) 100%);
+	background-image: linear-gradient(to right, var(grad-one-second-color) 50%, var(grad-one-first-color) 100%);
 }
 
 .modules-catalog-product .columns {
@@ -1096,8 +1082,7 @@ input.date-picker {
 	background-image: -webkit-linear-gradient(top, var(grad-one-second-color) 50%, var(grad-one-first-color));
 	background-image: -moz-linear-gradient(top, var(grad-one-second-color) 50%, var(grad-one-first-color));
 	background-image: -o-linear-gradient(top, var(grad-one-second-color) 50%, var(grad-one-first-color));
-	background-image: -ms-linear-gradient(top, var(grad-one-second-color) 50%, var(grad-one-first-color));
-	background-image: linear-gradient(top, var(grad-one-second-color) 50%, var(grad-one-first-color));
+	background-image: linear-gradient(to bottom, var(grad-one-second-color) 50%, var(grad-one-first-color));
 	color: var(grad-one-text-color);
 	padding: 5px;
 	text-align: center;
