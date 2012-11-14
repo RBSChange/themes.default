@@ -451,17 +451,32 @@ ul.normal > li::before,
 	padding: 10px;
 	background: var(messages-background-color);
 }
+table.normal tr.messages td,
+table.normal tr td.messages {
+	color: var(messages-text-color);
+	background: var(messages-background-color);
+}
 .warnings {
 	color: var(warnings-text-color);
 	border: 1px solid var(warnings-text-color);
 	padding: 10px;
 	background: var(warnings-background-color);
 }
-.errors:not(.form-validation) {
+table.normal tr.warnings td,
+table.normal tr td.warnings {
+	color: var(warnings-text-color);
+	background: var(warnings-background-color);
+}
+.errors:not(.form-validation):not(td) {
 	color: var(errors-text-color);
 	border: 1px solid var(errors-text-color);
 	padding: 10px;
 	background: var(errors-background-color);
+}
+table.normal tr.errors td,
+table.normal tr td.errors {
+	color: var(errors-text-color);
+	background: var(errors-background-color);	
 }
 .requiredsymbol {
 	color: var(errors-text-color);
