@@ -81,6 +81,7 @@
 				<div class="clear"></div>
 			</div>
 		</div>
+		<change:templateblock type="modules_uixul_OpenInBackoffice" />
 	</change:template>
 	<change:template content-type="xul" id="sidebarpage">
 		<vbox id="top">
