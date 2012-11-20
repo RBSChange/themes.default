@@ -1182,6 +1182,46 @@ input.date-picker {
 	font-size: 16px;
 }
 
+/** Open in backoffice */
+#open-in-backoffice {
+	position: fixed;
+	bottom: 15px;
+	left: 15px;
+	background: #222;
+	padding: 10px;
+	color: #bbb;
+	border: 2px solid #bbb;
+	border-radius: 5px;
+	box-shadow: 0 0 10px 3px #555;
+	font-size: 12px;
+	width: 250px;
+	opacity: 0.5;
+}
+#open-in-backoffice:hover {
+	opacity: 1;
+}
+#open-in-backoffice h1 {
+	font-weight: bold;
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+#open-in-backoffice img {
+	float: right;
+	cursor: pointer;
+}
+#open-in-backoffice a {
+	color: #fff;
+}
+#open-in-backoffice a:hover {
+	color: #ccc;
+}
+#open-in-backoffice dd {
+	margin-left: 15px;
+}
+#open-in-backoffice dd:not(:last-child) {
+	margin-bottom: 10px;
+}
+
 /** Browser specific styles */
 @import url(/themes/default/style/common.gecko.all.css);
 @import url(/themes/default/style/common.trident.all.css);
