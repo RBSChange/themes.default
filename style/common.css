@@ -1186,19 +1186,22 @@ input.date-picker {
 #open-in-backoffice {
 	position: fixed;
 	bottom: 15px;
-	left: 15px;
+	left: -250px;
 	background: #222;
 	padding: 10px;
 	color: #bbb;
 	border: 2px solid #bbb;
-	border-radius: 5px;
+	border-radius: 0 10px 10px 0;
 	box-shadow: 0 0 10px 3px #555;
 	font-size: 12px;
 	width: 250px;
 	opacity: 0.5;
+	transition: left 0.5s, opacity 0.5s;
 }
 #open-in-backoffice:hover {
 	opacity: 1;
+	left: 0px;
+	transition: left 0.5s, opacity 0.5s;
 }
 #open-in-backoffice h1 {
 	font-weight: bold;
@@ -1208,6 +1211,12 @@ input.date-picker {
 #open-in-backoffice img {
 	float: right;
 	cursor: pointer;
+	opacity: 0;
+	transition: opacity 0.5s;
+}
+#open-in-backoffice:hover img {
+	opacity: 1;
+	transition: opacity 0.5s;
 }
 #open-in-backoffice a {
 	color: #fff;
