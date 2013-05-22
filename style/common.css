@@ -1196,6 +1196,7 @@ input.date-picker {
 	font-size: 12px;
 	width: 250px;
 	opacity: 0.5;
+	z-index: 10000;
 	transition: left 0.5s, opacity 0.5s;
 }
 #open-in-backoffice:hover {
